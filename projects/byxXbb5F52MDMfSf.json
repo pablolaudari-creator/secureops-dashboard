@@ -1,0 +1,1191 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a6000001-0000-0000-0000-000000000006",
+        "text": {
+          "ops": [
+            {
+              "insert": "Supervisión Operativa — SPI S.A."
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b6000001-0000-0000-0000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión Racing Club — W. Rodríguez",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@sup01": "W. Rodríguez",
+              "@sup02": "Racing Club",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "rutina"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "conforme"
+              },
+              "@sup06": "Sin hallazgos",
+              "@sup07": "N/A",
+              "@sup08": "W. Rodríguez"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6000002-0000-0000-0000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión HPCC — W. Rodríguez",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@sup01": "W. Rodríguez",
+              "@sup02": "HPCC",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "sorpresiva"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "observacion"
+              },
+              "@sup06": "Registro de rondas incompleto Sector B - se generó NC-001",
+              "@sup07": "Verificar implementación acción correctiva NC-001",
+              "@sup08": "W. Rodríguez"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6000003-0000-0000-0000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión Konig — I. Torena",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@sup01": "I. Torena",
+              "@sup02": "Konig",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "rutina"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "conforme"
+              },
+              "@sup06": "Sin hallazgos - excelente desempeño equipo",
+              "@sup07": "Mantener estándares",
+              "@sup08": "I. Torena"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6000004-0000-0000-0000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión Avellaneda — W. Rodríguez (pendiente)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "W. Rodríguez",
+              "@sup02": "Avellaneda",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "especial"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "observacion"
+              },
+              "@sup06": "Panel alarma zona 4 reparado parcialmente. CCTV: 18/20 cámaras operativas. NC-002 en seguimiento. Rondas afectadas por obras internas.",
+              "@sup07": "Completar reparación panel alarma zona 4 antes del 18/04. Actualizar estado NC-002 a cerrada una vez confirmado por técnico.",
+              "@sup03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-11"
+                }
+              },
+              "@sup08": "W. Rodríguez"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6000005-0000-0000-0000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión ATILRA — I. Torena (pendiente)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@sup01": "I. Torena",
+              "@sup02": "ATILRA",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "rutina"
+              },
+              "@sup03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-09"
+                }
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "conforme"
+              },
+              "@sup06": "Sin hallazgos relevantes. Cambio de guardia normalizado tras INC-003. Equipo en buenas condiciones.",
+              "@sup07": "Continuar protocolo de relevo reforzado. Próxima supervisión semana 20/04.",
+              "@sup08": "I. Torena"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "53f1a2b3-c4d5-6789-abcd-ef0123456780",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión HPCC — W. Rodríguez (seguimiento NC-001)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@sup01": "W. Rodríguez",
+              "@sup02": "HPCC",
+              "@sup03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-10"
+                }
+              },
+              "@sup04": {
+                "type": "Select",
+                "optionId": "especial"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "observacion"
+              },
+              "@sup06": "Sector B: puntos QR parcialmente restaurados (4/6). Tasa rondas mejoró de 41% a 58% pero sigue bajo meta. 2 cámaras HPCC aún en reparación.",
+              "@sup07": "Completar restauración QR Sector B antes del 17/04. Técnico confirmado para reparación cámaras semana 14/04. Seguimiento diario hasta cierre NC-001.",
+              "@sup08": "W. Rodríguez"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "64f2b3c4-d5e6-7890-bcde-f01234567891",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión Racing Club — I. Torena (semana 14/04)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "I. Torena",
+              "@sup02": "Racing Club",
+              "@sup03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-14"
+                }
+              },
+              "@sup04": {
+                "type": "Select",
+                "optionId": "rutina"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a8555fbb-628a-4b5d-8a2c-62e72359d4ce",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supervisión Racing Club — W. Rodríguez"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sup01": "W. Rodríguez",
+              "@sup02": "Racing Club",
+              "@sup04": {
+                "type": "Select",
+                "optionId": "rutina"
+              },
+              "@sup05": {
+                "type": "Select",
+                "optionId": "conforme"
+              },
+              "@sup06": "",
+              "@sup07": "",
+              "@sup08": "W. Rodríguez"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z"
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV"
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk"
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs"
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw"
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy"
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz"
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sup01": {
+            "id": "/attributes/@sup01",
+            "fieldPath": "/attributes/@sup01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sup02": {
+            "id": "/attributes/@sup02",
+            "fieldPath": "/attributes/@sup02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@sup03": {
+            "id": "/attributes/@sup03",
+            "fieldPath": "/attributes/@sup03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sup04": {
+            "id": "/attributes/@sup04",
+            "fieldPath": "/attributes/@sup04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@sup05": {
+            "id": "/attributes/@sup05",
+            "fieldPath": "/attributes/@sup05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sup06": {
+            "id": "/attributes/@sup06",
+            "fieldPath": "/attributes/@sup06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@sup07": {
+            "id": "/attributes/@sup07",
+            "fieldPath": "/attributes/@sup07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@sup08": {
+            "id": "/attributes/@sup08",
+            "fieldPath": "/attributes/@sup08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@sup01": {
+        "type": "string",
+        "displayName": "Supervisor"
+      },
+      "@sup02": {
+        "type": "string",
+        "displayName": "Sede"
+      },
+      "@sup03": {
+        "type": "DateTime",
+        "title": "Fecha"
+      },
+      "@sup04": {
+        "type": "Select",
+        "displayName": "Tipo Supervisión",
+        "options": {
+          "rutina": {
+            "id": "rutina",
+            "name": "Rutina",
+            "color": "#6366f1",
+            "rank": "0"
+          },
+          "sorpresiva": {
+            "id": "sorpresiva",
+            "name": "Sorpresiva",
+            "color": "#f97316",
+            "rank": "1"
+          },
+          "especial": {
+            "id": "especial",
+            "name": "Especial",
+            "color": "#8b5cf6",
+            "rank": "2"
+          }
+        }
+      },
+      "@sup05": {
+        "type": "Select",
+        "displayName": "Resultado",
+        "options": {
+          "conforme": {
+            "id": "conforme",
+            "name": "✅ Conforme",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "observacion": {
+            "id": "observacion",
+            "name": "⚠️ Con Observación",
+            "color": "#eab308",
+            "rank": "1"
+          },
+          "noconforme": {
+            "id": "noconforme",
+            "name": "❌ No Conforme",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@sup06": {
+        "type": "string",
+        "displayName": "Hallazgos"
+      },
+      "@sup07": {
+        "type": "string",
+        "displayName": "Acciones a Tomar"
+      },
+      "@sup08": {
+        "type": "string",
+        "displayName": "Firma Supervisor"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📄"
+    }
+  }
+}

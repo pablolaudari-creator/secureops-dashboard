@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Capacitaciones → Dashboard (Auto-Sync)",
+  "trigger": {
+    "valid": false,
+    "displayName": "🎓 Nuevo archivo en carpeta Capacitaciones",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "45d4f38e-2e70-4577-ae05-74b5fca5bf8f",
+      "valid": true,
+      "displayName": "📄 Extraer contenido del documento de Capacitación",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "https://drive.google.com/uc?export=download&id={{ trigger['id'] }}"
+        }
+      }
+    },
+    {
+      "name": "e5f2adef-39fb-4e56-bf0b-ee5f16fd60eb",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar datos de Capacitación",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ 45d4f38e-2e70-4577-ae05-74b5fca5bf8f[\"content\"] }}",
+          "prompt": "Eres el Analista de RRHH y SGC de SPI S.A. Analizas documentos, planillas y registros de capacitaciones del personal de seguridad privada. Del archivo extraé y estructurá:\n\n1. TÍTULO de la capacitación o módulo\n2. FECHA de realización (DD/MM/YYYY)\n3. INSTRUCTOR / RESPONSABLE\n4. SEDE u OBJETIVO donde se realizó\n5. PARTICIPANTES (cantidad y nombres si están disponibles)\n6. APROBADOS (cantidad y % si disponible)\n7. ESTADO (Completado / En Curso / Planificado / Cancelado)\n8. TEMAS cubiertos (lista resumida)\n9. CLÁUSULA ISO aplicable (si menciona)\n10. OBSERVACIONES y próximos pasos\n\nSi el documento contiene múltiples capacitaciones, procesá cada una por separado. Respondé en español, formato estructurado. Si algún dato no está disponible, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "72905d85-9876-4419-bed8-8da583de73ec",
+      "valid": false,
+      "displayName": "✅ Registrar Capacitación en proyecto Taskade",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🎓 CAPACITACIÓN — {{ trigger[\"file\"] }}\n\n{{ e5f2adef-39fb-4e56-bf0b-ee5f16fd60eb[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "MpWxE1PpWjLk74dm"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "MpWxE1PpWjLk74dm": {
+      "id": "MpWxE1PpWjLk74dm",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

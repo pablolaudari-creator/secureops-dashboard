@@ -1,0 +1,1100 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a4000001-0000-0000-0000-000000000004",
+        "text": {
+          "ops": [
+            {
+              "insert": "Control CCTV & Alarmas — SPI S.A."
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b4000001-0000-0000-0000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Racing Club",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cctv01": "Racing Club",
+              "@cctv02": 24,
+              "@cctv03": 24,
+              "@cctv04": {
+                "type": "Select",
+                "optionId": "operativo"
+              },
+              "@cctv05": {
+                "type": "Select",
+                "optionId": "activa"
+              },
+              "@cctv07": "Jefe Técnico",
+              "@cctv08": "Sistema 100% operativo. Mantenimiento preventivo realizado 09/04.",
+              "@cctv06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-09"
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b4000002-0000-0000-0000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HPCC",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cctv01": "HPCC",
+              "@cctv02": 18,
+              "@cctv03": 16,
+              "@cctv04": {
+                "type": "Select",
+                "optionId": "parcial"
+              },
+              "@cctv05": {
+                "type": "Select",
+                "optionId": "activa"
+              },
+              "@cctv07": "Técnico Fernández",
+              "@cctv08": "Cámaras Sector B en reparación. Turno técnico confirmado semana 14/04. ETA operativas: 17/04/2026.",
+              "@cctv06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-10"
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b4000003-0000-0000-0000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Konig",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cctv01": "Konig",
+              "@cctv02": 12,
+              "@cctv03": 12,
+              "@cctv04": {
+                "type": "Select",
+                "optionId": "operativo"
+              },
+              "@cctv05": {
+                "type": "Select",
+                "optionId": "activa"
+              },
+              "@cctv07": "Técnico García",
+              "@cctv08": "Óptimo. Sin novedades.",
+              "@cctv06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-07"
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b4000004-0000-0000-0000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ATILRA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cctv01": "ATILRA",
+              "@cctv02": 8,
+              "@cctv03": 8,
+              "@cctv04": {
+                "type": "Select",
+                "optionId": "operativo"
+              },
+              "@cctv05": {
+                "type": "Select",
+                "optionId": "activa"
+              },
+              "@cctv07": "Técnico López",
+              "@cctv08": "Sistema operativo. Falla señal QR zona norte reportada — no afecta CCTV.",
+              "@cctv06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-09"
+                }
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b4000005-0000-0000-0000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Avellaneda",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cctv01": "Avellaneda",
+              "@cctv02": 20,
+              "@cctv03": 20,
+              "@cctv04": {
+                "type": "Select",
+                "optionId": "operativo"
+              },
+              "@cctv05": {
+                "type": "Select",
+                "optionId": "activa"
+              },
+              "@cctv07": "Técnico Martínez",
+              "@cctv08": "Panel alarma reparado 11/04. Sistema CCTV 100% operativo desde 12/04. NC-002 en proceso de cierre.",
+              "@cctv06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-11"
+                }
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z"
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV"
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk"
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs"
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw"
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy"
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz"
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z"
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV"
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk"
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs"
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw"
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy"
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz"
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z"
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV"
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk"
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs"
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw"
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy"
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz"
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z"
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV"
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk"
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs"
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw"
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy"
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz"
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cctv01": {
+            "id": "/attributes/@cctv01",
+            "fieldPath": "/attributes/@cctv01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cctv02": {
+            "id": "/attributes/@cctv02",
+            "fieldPath": "/attributes/@cctv02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cctv03": {
+            "id": "/attributes/@cctv03",
+            "fieldPath": "/attributes/@cctv03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cctv04": {
+            "id": "/attributes/@cctv04",
+            "fieldPath": "/attributes/@cctv04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cctv05": {
+            "id": "/attributes/@cctv05",
+            "fieldPath": "/attributes/@cctv05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cctv06": {
+            "id": "/attributes/@cctv06",
+            "fieldPath": "/attributes/@cctv06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cctv07": {
+            "id": "/attributes/@cctv07",
+            "fieldPath": "/attributes/@cctv07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cctv08": {
+            "id": "/attributes/@cctv08",
+            "fieldPath": "/attributes/@cctv08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cctv01": {
+        "type": "string",
+        "displayName": "Sede"
+      },
+      "@cctv02": {
+        "type": "number",
+        "displayName": "Cámaras Totales",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@cctv03": {
+        "type": "number",
+        "displayName": "Cámaras Operativas",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@cctv04": {
+        "type": "Select",
+        "displayName": "Estado CCTV",
+        "options": {
+          "operativo": {
+            "id": "operativo",
+            "name": "🟢 Operativo",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "parcial": {
+            "id": "parcial",
+            "name": "🟡 Parcial",
+            "color": "#eab308",
+            "rank": "1"
+          },
+          "fuera": {
+            "id": "fuera",
+            "name": "🔴 Fuera de Servicio",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@cctv05": {
+        "type": "Select",
+        "displayName": "Estado Alarmas",
+        "options": {
+          "activa": {
+            "id": "activa",
+            "name": "🟢 Activa",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "alerta": {
+            "id": "alerta",
+            "name": "🟡 En Alerta",
+            "color": "#eab308",
+            "rank": "1"
+          },
+          "inactiva": {
+            "id": "inactiva",
+            "name": "🔴 Inactiva",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@cctv06": {
+        "type": "DateTime",
+        "title": "Último Control"
+      },
+      "@cctv07": {
+        "type": "string",
+        "displayName": "Técnico Responsable"
+      },
+      "@cctv08": {
+        "type": "string",
+        "displayName": "Observaciones"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "💚"
+    }
+  }
+}

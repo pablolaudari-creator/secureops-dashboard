@@ -1,0 +1,1143 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a5000001-0000-0000-0000-000000000005",
+        "text": {
+          "ops": [
+            {
+              "insert": "Plan Capacitaciones 2026 — SPI S.A."
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b5000001-0000-0000-0000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 1 — Inducción SGC ISO 9001:2015",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@cap01": "Módulo 1",
+              "@cap02": "Inducción SGC ISO 9001:2015 - Alcance y requisitos",
+              "@cap03": "I. Torena",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "completado"
+              },
+              "@cap07": 42,
+              "@cap08": 95,
+              "@cap09": "Todas las sedes"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b5000002-0000-0000-0000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 2 — Procedimientos Operativos de Seguridad",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@cap01": "Módulo 2",
+              "@cap02": "Procedimientos operativos, rondas y control de acceso",
+              "@cap03": "W. Rodríguez",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "completado"
+              },
+              "@cap05": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-01"
+                }
+              },
+              "@cap06": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-08"
+                }
+              },
+              "@cap07": 38,
+              "@cap08": 89,
+              "@cap09": "Racing Club / HPCC"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b5000003-0000-0000-0000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 3 — Uso de CCTV y Sistemas de Alarma",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cap01": "Módulo 3",
+              "@cap02": "Operación de sistemas CCTV, central de alarmas, respuesta a incidentes",
+              "@cap03": "Jefe Técnico",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "en_curso"
+              },
+              "@cap09": "Todas las sedes",
+              "@cap05": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-25"
+                }
+              },
+              "@cap07": 45
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b5000004-0000-0000-0000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 4 — Primeros Auxilios y Emergencias",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cap01": "Módulo 4",
+              "@cap02": "Primeros auxilios, evacuación y plan de emergencia",
+              "@cap03": "Capacitador Externo (Cruz Roja Argentina)",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "planificado"
+              },
+              "@cap09": "Konig / ATILRA / Avellaneda",
+              "@cap05": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-09"
+                }
+              },
+              "@cap07": 40
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b5000005-0000-0000-0000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 5 — Gestión de No Conformidades",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cap01": "Módulo 5",
+              "@cap02": "Detección, registro y tratamiento de No Conformidades",
+              "@cap03": "I. Torena",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "planificado"
+              },
+              "@cap09": "Supervisores (todas las sedes)",
+              "@cap05": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-23"
+                }
+              },
+              "@cap07": 25
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b5000006-0000-0000-0000-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Módulo 6 — Atención al Cliente y Comunicación",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cap01": "Módulo 6",
+              "@cap02": "Protocolo de atención, imagen institucional y comunicación",
+              "@cap03": "RRHH",
+              "@cap04": {
+                "type": "Select",
+                "optionId": "planificado"
+              },
+              "@cap09": "Todas las sedes"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z"
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV"
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk"
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs"
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw"
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy"
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz"
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV"
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z"
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV"
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk"
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs"
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw"
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy"
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz"
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV"
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z"
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV"
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk"
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs"
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw"
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy"
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz"
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV"
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z"
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV"
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk"
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs"
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw"
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy"
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz"
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV"
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cap01": {
+            "id": "/attributes/@cap01",
+            "fieldPath": "/attributes/@cap01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cap02": {
+            "id": "/attributes/@cap02",
+            "fieldPath": "/attributes/@cap02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cap03": {
+            "id": "/attributes/@cap03",
+            "fieldPath": "/attributes/@cap03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cap04": {
+            "id": "/attributes/@cap04",
+            "fieldPath": "/attributes/@cap04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cap05": {
+            "id": "/attributes/@cap05",
+            "fieldPath": "/attributes/@cap05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cap06": {
+            "id": "/attributes/@cap06",
+            "fieldPath": "/attributes/@cap06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cap07": {
+            "id": "/attributes/@cap07",
+            "fieldPath": "/attributes/@cap07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cap08": {
+            "id": "/attributes/@cap08",
+            "fieldPath": "/attributes/@cap08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cap09": {
+            "id": "/attributes/@cap09",
+            "fieldPath": "/attributes/@cap09",
+            "rank": "zzk",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cap01": {
+        "type": "string",
+        "displayName": "Módulo"
+      },
+      "@cap02": {
+        "type": "string",
+        "displayName": "Descripción"
+      },
+      "@cap03": {
+        "type": "string",
+        "displayName": "Instructor"
+      },
+      "@cap04": {
+        "type": "Select",
+        "displayName": "Estado",
+        "options": {
+          "planificado": {
+            "id": "planificado",
+            "name": "📋 Planificado",
+            "color": "#6366f1",
+            "rank": "0"
+          },
+          "en_curso": {
+            "id": "en_curso",
+            "name": "🔄 En Curso",
+            "color": "#3b82f6",
+            "rank": "1"
+          },
+          "completado": {
+            "id": "completado",
+            "name": "✅ Completado",
+            "color": "#22c55e",
+            "rank": "2"
+          },
+          "cancelado": {
+            "id": "cancelado",
+            "name": "❌ Cancelado",
+            "color": "#ef4444",
+            "rank": "3"
+          }
+        }
+      },
+      "@cap05": {
+        "type": "DateTime",
+        "title": "Fecha Programada"
+      },
+      "@cap06": {
+        "type": "DateTime",
+        "title": "Fecha Realización"
+      },
+      "@cap07": {
+        "type": "number",
+        "displayName": "Participantes",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@cap08": {
+        "type": "number",
+        "displayName": "Aprobados %",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "unit",
+          "config": {
+            "type": "standard",
+            "unit": "percent"
+          }
+        }
+      },
+      "@cap09": {
+        "type": "string",
+        "displayName": "Sede"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🌟"
+    }
+  }
+}

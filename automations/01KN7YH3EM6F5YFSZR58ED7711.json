@@ -1,0 +1,115 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — Informes Safety → Análisis IA → SGC",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "format": "date"
+          },
+          "objetivo": {
+            "type": "string",
+            "description": "Input for objetivo"
+          },
+          "supervisor": {
+            "type": "string",
+            "description": "Input for supervisor"
+          },
+          "descripcion": {
+            "type": "string",
+            "description": "Input for descripcion"
+          },
+          "nivelRiesgo": {
+            "type": "string",
+            "description": "Input for nivelRiesgo"
+          },
+          "tipoInforme": {
+            "type": "string",
+            "description": "Input for tipoInforme"
+          },
+          "urlDocumento": {
+            "type": "string",
+            "description": "Input for urlDocumento"
+          },
+          "accionRequerida": {
+            "type": "string",
+            "description": "Input for accionRequerida"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "inf001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "🤖 IA — Analizar y clasificar hallazgo Safety",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Objetivo: {{ trigger[\"body\"][\"objetivo\"] }}\nSupervisor: {{ trigger[\"body\"][\"supervisor\"] }}\nFecha: {{ trigger[\"body\"][\"fecha\"] }}\nTipo: {{ trigger[\"body\"][\"tipoInforme\"] }}\nNivel de riesgo declarado: {{ trigger[\"body\"][\"nivelRiesgo\"] }}\nDescripción: {{ trigger[\"body\"][\"descripcion\"] }}\nAcción requerida: {{ trigger[\"body\"][\"accionRequerida\"] }}",
+          "prompt": "Eres el Analista SGC/QHSE de SPI S.A. (ISO 9001:2015). Se recibió un nuevo informe de Safety desde la App SGC.\n\nAnalizá el hallazgo y respondé con:\n1. CLASIFICACIÓN ISO: qué cláusula(s) de ISO 9001 aplican\n2. URGENCIA: INMEDIATA (≤48h) / ESTA SEMANA / ESTE MES\n3. ¿Genera NC?: SI (indicar tipo: mayor/menor/observación) / NO\n4. ACCIÓN RECOMENDADA: paso concreto y responsable sugerido\n5. IMPACTO en auditoría ENG del 30/04/2026: ALTO / MEDIO / BAJO\n6. RESUMEN ejecutivo en 2 líneas para Dirección\n\nRespondé en español, formato estructurado y operativo."
+        }
+      }
+    },
+    {
+      "name": "inf002-0000-0000-0000-000000000002",
+      "valid": false,
+      "displayName": "✅ Registrar informe + análisis en SGC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🛡 SAFETY — {{ trigger[\"body\"][\"objetivo\"] }} | {{ trigger[\"body\"][\"fecha\"] }}\nSupervisor: {{ trigger[\"body\"][\"supervisor\"] }} | Riesgo declarado: {{ trigger[\"body\"][\"nivelRiesgo\"] }}\n\n📋 Descripción: {{ trigger[\"body\"][\"descripcion\"] }}\n⚠ Acción requerida: {{ trigger[\"body\"][\"accionRequerida\"] }}\n\n🤖 ANÁLISIS IA:\n{{ inf001-0000-0000-0000-000000000001[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "ok": "true"
+            },
+            {
+              "mensaje": "Informe registrado y analizado correctamente en el SGC."
+            },
+            {
+              "analisis": "{{ inf001-0000-0000-0000-000000000001[\"result\"] }}"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Análisis de Rondas 2026 → Dashboard",
+  "trigger": {
+    "valid": false,
+    "displayName": "📍 Nuevo archivo en Análisis de Rondas 2026",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "c3000001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "📄 Extraer contenido del análisis de rondas",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"fileUrl\"] }}"
+        }
+      }
+    },
+    {
+      "name": "c3000002-0000-0000-0000-000000000002",
+      "valid": true,
+      "displayName": "🤖 IA — Extraer KPIs de rondas",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ c3000001-0000-0000-0000-000000000001[\"content\"] }}",
+          "prompt": "Eres el Analista Operativo de SPI S.A. Analizas reportes de rondas de seguridad privada. Del documento extraé y estructurá:\n\n1. PERÍODO analizado (mes/año)\n2. OBJETIVO/CLIENTE\n3. TOTAL rondas realizadas\n4. TOTAL rondas planificadas\n5. % CUMPLIMIENTO (realizadas/planificadas × 100)\n6. NOVEDADES detectadas (cantidad y descripción breve, máx 5)\n7. VIGILADORES evaluados\n8. PUNTAJE promedio de desempeño\n9. SECTORES / PUNTOS DE CONTROL relevados\n10. OBSERVACIONES y recomendaciones del supervisor\n\nRespondé en español, formato estructurado. Si un dato no está, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "c3000003-0000-0000-0000-000000000003",
+      "valid": false,
+      "displayName": "✅ Registrar análisis de rondas en proyecto SGC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "📍 ANÁLISIS DE RONDAS — {{ trigger[\"file\"] }}\n\n{{ c3000002-0000-0000-0000-000000000002[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

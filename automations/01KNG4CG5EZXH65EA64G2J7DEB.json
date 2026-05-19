@@ -1,0 +1,61 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — Matriz de Riesgos → KPIs Dashboard",
+  "trigger": {
+    "valid": true,
+    "displayName": "▶ Calcular KPIs de Riesgos (manual)",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "rsk-a001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "🤖 IA — Calcular nivel de cumplimiento de riesgos",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Calculá los KPIs reales de la Matriz de Riesgos SPI al 08/04/2026 con los 32 riesgos listados. Completá TODOS los campos del JSON con los valores exactos calculados.",
+          "prompt": "Eres el Analista SGC de SPI S.A. Tenés la Matriz de Análisis de Riesgos MAR-SGC-001 (ISO 9001:2015, cláusula 6.1) con 32 riesgos identificados. Revisión: 08/04/2026.\n\nDATA ACTUAL (08/04/2026):\n\nCRÍTICOS (P×I ≥ 16):\n- RSG-001 (P4×I5=20): Vigilador ausente → PARCIAL → En curso\n- RSG-004 (P5×I5=25): NC sin AC cerrada → PARCIAL → En curso\n- RSG-008 (P4×I4=16): Objetivos sin KPIs → PARCIAL → En curso\n- RSG-011 (P4×I5=20): Auditoría interna no ejecutada → PARCIAL → En curso\n- RSG-016 (P4×I5=20): Pérdida cliente por SLA → PARCIAL → En curso\n- RSG-017 (P3×I5=15): Robo/intrusión → PARCIAL → Abierto\n- RSG-018 (P4×I4=16): Supervisor sobrecargado → PARCIAL → Abierto\n- RSG-031 (P4×I4=16): Ausentismo alza sostenida → NO → Abierto\n\nALTOS (P×I 9-15):\n- RSG-002 (P3×I4=12): Ronda sin QR → SÍ → En curso\n- RSG-003 (P3×I4=12): Fallo CCTV → PARCIAL → Abierto\n- RSG-005 (P3×I5=15): Sin capacitación → PARCIAL → En curso\n- RSG-006 (P3×I4=12): Insatisfacción cliente → SÍ → En curso\n- RSG-007 (P4×I3=12): Proveedor sin eval → NO → Abierto\n- RSG-009 (P2×I5=10): Incidente sin protocolo → SÍ → En curso\n- RSG-010 (P3×I4=12): Rev. dirección sin evidencia → PARCIAL → En curso\n- RSG-012 (P3×I3=9): Alta rotación → PARCIAL → Abierto\n- RSG-013 (P3×I3=9): Doc desactualizada → PARCIAL → En curso\n- RSG-014 (P2×I5=10): Incumplimiento legal → SÍ → En curso\n- RSG-015 (P3×I3=9): Comunicación deficiente → PARCIAL → En curso\n- RSG-020 (P3×I4=12): Equipamiento obsoleto → NO → Abierto\n- RSG-021 (P3×I3=9): Incidentes incompletos → PARCIAL → En curso\n- RSG-024 (P3×I3=9): Sin KPIs supervisores → PARCIAL → En curso\n- RSG-025 (P3×I3=9): Demora respuesta cliente → PARCIAL → En curso\n- RSG-032 (P3×I3=9): Datos históricos sin respaldo → NO → Abierto\n\nMEDIOS (P×I 4-8):\n- RSG-019 (P2×I4=8): Datos desincronizados → SÍ → En curso\n- RSG-022 (P2×I4=8): Sin proc. emergencias → NO → Abierto\n- RSG-023 (P2×I4=8): Sin backups → NO → Abierto\n- RSG-026 (P4×I2=8): Capacitación sin eficacia → PARCIAL → En curso\n\nBAJOS (P×I 1-4):\n- RSG-027 (P2×I2=4): Clima extremo → SÍ → Aceptado\n- RSG-028 (P2×I2=4): Credenciales perdidas → SÍ → Aceptado\n- RSG-029 (P1×I2=2): Duplicidad asistencia → SÍ → CERRADO ✅\n- RSG-030 (P2×I2=4): QR sin señalización → PARCIAL → En curso\n\nCALCULÁ y respondé EXACTAMENTE en este formato JSON (sin texto adicional):\n{\n  \"fecha\": \"08/04/2026\",\n  \"totalRiesgos\": 32,\n  \"criticos\": 8,\n  \"altos\": 16,\n  \"medios\": 4,\n  \"bajos\": 4,\n  \"controlesImplementados\": 0,\n  \"controlesParciales\": 0,\n  \"sinControl\": 0,\n  \"porcentajeCumplimiento\": 0,\n  \"riesgosAbiertos\": 0,\n  \"riesgosEnCurso\": 0,\n  \"riesgosCerrados\": 0,\n  \"riesgosAceptados\": 0,\n  \"nivelRiesgoGlobal\": \"CRÍTICO\",\n  \"ausentismo2026\": \"15.3% (64/418 registros)\",\n  \"ncPendientes\": 86,\n  \"tasaQR\": \"<60%\",\n  \"diasAuditoria\": 22,\n  \"proximosVencimientos\": [],\n  \"resumen\": \"\"\n}"
+        }
+      }
+    },
+    {
+      "name": "rsk-a002-0000-0000-0000-000000000002",
+      "valid": false,
+      "displayName": "✅ Registrar KPIs de riesgos en proyecto SGC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "📊 KPIs RIESGOS — 08/04/2026 — 32 riesgos registrados en MAR-SGC-001 v3.1",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "8QJK2KTNHUcX58Fm"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "8QJK2KTNHUcX58Fm": {
+      "id": "8QJK2KTNHUcX58Fm",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

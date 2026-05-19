@@ -1,0 +1,79 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — Nuevo Cliente → Registro Automático BD",
+  "trigger": {
+    "valid": true,
+    "displayName": "📥 Nuevo cliente ingresado desde la App",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "estado": {
+            "type": "string",
+            "description": "Input for estado"
+          },
+          "nombre": {
+            "type": "string",
+            "description": "Input for nombre"
+          },
+          "contacto": {
+            "type": "string",
+            "description": "Input for contacto"
+          },
+          "telefono": {
+            "type": "string",
+            "description": "Input for telefono"
+          },
+          "direccion": {
+            "type": "string",
+            "description": "Input for direccion"
+          },
+          "supervisor": {
+            "type": "string",
+            "description": "Input for supervisor"
+          },
+          "tipoServicio": {
+            "type": "string",
+            "description": "Input for tipoServicio"
+          },
+          "observaciones": {
+            "type": "string",
+            "description": "Input for observaciones"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "reg001-0000-0000-0000-000000000001",
+      "valid": false,
+      "displayName": "✅ Registrar en proyecto Clientes & Objetivos",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "{{ trigger[\"nombre\"] }} — {{ trigger[\"tipoServicio\"] }} | {{ trigger[\"estado\"] }}\nDirección: {{ trigger[\"direccion\"] }}\nContacto: {{ trigger[\"contacto\"] }} | Tel: {{ trigger[\"telefono\"] }}\nSupervisor: {{ trigger[\"supervisor\"] }}\nObs: {{ trigger[\"observaciones\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "vjNACQB6Yk4rtVmF"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "vjNACQB6Yk4rtVmF": {
+      "id": "vjNACQB6Yk4rtVmF",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

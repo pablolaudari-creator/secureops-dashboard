@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Informes Safety → Dashboard",
+  "trigger": {
+    "valid": false,
+    "displayName": "🛡 Nuevo informe en carpeta Safety",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "b2000001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "📄 Extraer texto del informe Safety",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "https://drive.google.com/uc?export=download&id={{ trigger['id'] }}"
+        }
+      }
+    },
+    {
+      "name": "b2000002-0000-0000-0000-000000000002",
+      "valid": true,
+      "displayName": "🤖 IA — Clasificar hallazgos Safety",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ b2000001-0000-0000-0000-000000000001[\"content\"] }}",
+          "prompt": "Eres el Analista QHSE de SPI S.A. Analizas informes de Safety (seguridad e higiene). Del documento, extraé y estructurá:\n\n1. FECHA del informe\n2. OBJETIVO/SITIO auditado\n3. RESPONSABLE / INSPECTOR\n4. TIPO de informe (Inspección / Auditoría / Incidente / Investigación / Capacitación)\n5. NIVEL DE RIESGO detectado (ALTO / MEDIO / BAJO)\n6. HALLAZGOS principales (lista, máx 5)\n7. ACCIONES INMEDIATAS requeridas\n8. ESTADO (Abierto / Cerrado / En seguimiento)\n9. INDICADORES numéricos clave (horas sin accidentes, índice de frecuencia, etc.)\n\nRespondé en español, formato estructurado. Si un dato no está, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "b2000003-0000-0000-0000-000000000003",
+      "valid": false,
+      "displayName": "✅ Registrar en proyecto SGC — Safety",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🛡 INFORME SAFETY — {{ trigger[\"file\"] }}\n\n{{ b2000002-0000-0000-0000-000000000002[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

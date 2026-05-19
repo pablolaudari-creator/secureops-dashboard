@@ -1,0 +1,105 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — Safety: Procesar informe manualmente",
+  "trigger": {
+    "valid": true,
+    "displayName": "▶ Procesar informe Safety manualmente",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "objetivo": {
+            "type": "string",
+            "description": "Input for objetivo"
+          },
+          "urlInforme": {
+            "type": "string",
+            "description": "Input for urlInforme"
+          },
+          "tipoInforme": {
+            "type": "string",
+            "anyOf": [
+              {
+                "const": "inspeccion",
+                "title": "Inspección Safety"
+              },
+              {
+                "const": "auditoria",
+                "title": "Auditoría ISO"
+              },
+              {
+                "const": "incidente",
+                "title": "Informe de Incidente"
+              },
+              {
+                "const": "capacitacion",
+                "title": "Registro de Capacitación"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "saf001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "📄 Extraer texto del informe",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"urlInforme\"] }}"
+        }
+      }
+    },
+    {
+      "name": "saf002-0000-0000-0000-000000000002",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar hallazgos del informe",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Objetivo: {{ trigger[\"objetivo\"] }}\nTipo: {{ trigger[\"tipoInforme\"] }}\n\nContenido:\n{{ saf001-0000-0000-0000-000000000001[\"content\"] }}",
+          "prompt": "Eres el Analista QHSE de SPI S.A. (ISO 9001:2015). Analizas el informe enviado manualmente.\n\nOBJETIVO: {{ trigger[\"objetivo\"] }}\nTIPO: {{ trigger[\"tipoInforme\"] }}\n\nDel contenido extraé y estructurá en formato claro:\n1. FECHA del informe\n2. OBJETIVO/SITIO relevado\n3. RESPONSABLE / INSPECTOR\n4. NIVEL DE RIESGO (ALTO / MEDIO / BAJO)\n5. HALLAZGOS principales (máx 5, con código si aplica)\n6. NO CONFORMIDADES detectadas (indicar cláusula ISO si corresponde)\n7. ACCIONES CORRECTIVAS requeridas con responsable y plazo\n8. ESTADO (Abierto / Cerrado / En seguimiento)\n9. PUNTAJE o % cumplimiento si está presente\n10. RECOMENDACIONES del inspector\n\nRespondé en español, formato estructurado. Si un dato no está disponible, indicá '—'. Sé conciso y operativo."
+        }
+      }
+    },
+    {
+      "name": "saf003-0000-0000-0000-000000000003",
+      "valid": false,
+      "displayName": "✅ Registrar en proyecto SGC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🛡 INFORME SAFETY MANUAL — {{ trigger[\"objetivo\"] }} | {{ trigger[\"tipoInforme\"] }}\n\n{{ saf002-0000-0000-0000-000000000002[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

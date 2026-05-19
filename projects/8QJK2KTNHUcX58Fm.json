@@ -1,0 +1,2249 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "SPI — Matriz de Análisis de Riesgos SGC"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f8a92cfc-8a0c-4a59-89ec-91ffa87e71df",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Vigilador ausente sin reemplazo oportuno",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Implementar protocolo de guardia de reemplazo 24h. Lista de vigiladores disponibles por zona. Notificación automática al supervisor.",
+              "@rsk01": "RSG-001",
+              "@rsk12": "I. Torres / Supervisores de zona",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "op-presentismo"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "Vigilador no se presenta al turno sin previo aviso ni reemplazo disponible",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de banco de reemplazos, comunicación deficiente, ausentismo no anticipado",
+              "@rsk15": "ISO 8.1 / 8.5.1",
+              "@rsk05": "Objetivo desprotegido, incumplimiento contractual, pérdida de cliente",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p4"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i5"
+              },
+              "@rsk08": 20,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "critico"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "416541c6-904e-462c-b6eb-fb2f952b02fb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ronda de seguridad no realizada en punto crítico",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-si"
+              },
+              "@rsk11": "Control QR obligatorio por ronda. Alerta automática si ronda no registrada en tiempo programado. Supervisión presencial mensual.",
+              "@rsk01": "RSG-002",
+              "@rsk12": "Supervisores de zona / I. Torena",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "op-rondas"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-15"
+                }
+              },
+              "@rsk03": "El vigilador omite una o más rondas en puntos de control de alta criticidad",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de supervisión, desconocimiento del puesto, incidentes no detectados",
+              "@rsk15": "ISO 8.5.1 / 9.1.1",
+              "@rsk05": "Incidente de seguridad no detectado, daño a instalaciones, reclamo del cliente",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "075c028d-e3e1-43d8-bc34-9a85f650e4a2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fallo en sistema CCTV / cámaras de vigilancia",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Checklist CCTV en supervisión operativa. Reporte inmediato de fallas. Contrato de mantenimiento con SLA < 24h.",
+              "@rsk01": "RSG-003",
+              "@rsk12": "Supervisores / Responsable de infraestructura",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "tecnologia"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-31"
+                }
+              },
+              "@rsk03": "Cámaras CCTV fuera de servicio sin reporte ni solución oportuna",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Falta de mantenimiento preventivo, vandalismo, fallas eléctricas",
+              "@rsk15": "ISO 7.1.3",
+              "@rsk05": "Zona sin cobertura visual, vulnerabilidad ante intrusión, reclamo del cliente",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9017d9d7-9be8-4148-a8a3-e232942a8316",
+            "text": {
+              "ops": [
+                {
+                  "insert": "No conformidades ISO sin acción correctiva en plazo",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Plan de acción urgente para NC-001 a NC-004. Evidencias por proceso. Dashboard SGC con semáforo de cumplimiento. Revisión semanal.",
+              "@rsk01": "RSG-004",
+              "@rsk12": "M. I. Torres / Dirección SPI",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-nc"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "Las 4 NC abiertas (auditoria 07/01/2026) sin evidencia de cierre antes del 30/04/2026",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de plan de acción formal, recursos insuficientes, falta de seguimiento SGC",
+              "@rsk15": "ISO 10.2 / 9.2.1b / 9.3.3 / 6.2.1b / 8.4.2b",
+              "@rsk05": "NC mayor en 2ª auditoría de seguimiento, posible no renovación de certificación ISO 9001:2015",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p4"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i5"
+              },
+              "@rsk08": 20,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "critico"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4d22bac3-6ccd-4c60-a80c-846f2f1b51e3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Personal sin capacitación reglamentaria vigente",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Matriz de capacitaciones con vencimientos. Alerta 30 días antes del vencimiento. Registro de asistencia en sistema.",
+              "@rsk01": "RSG-005",
+              "@rsk12": "RRHH / I. Torres",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "rrhh"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-31"
+                }
+              },
+              "@rsk03": "Vigiladores sin habilitación renovada o sin capacitación en procedimientos de emergencia",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Vencimiento de habilitaciones, falta de plan de capacitación anual",
+              "@rsk15": "ISO 7.2 / 7.3",
+              "@rsk05": "Incumplimiento legal (Ley 12.297), accidente laboral, descertificación",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i5"
+              },
+              "@rsk08": 15,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0fb6c6b0-bd05-4b58-9cb7-d5e1f05f9f34",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Insatisfacción del cliente por baja calidad del servicio",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-si"
+              },
+              "@rsk11": "Encuesta de satisfacción mensual. Dashboard de supervisiones por cliente. Notificación inmediata a gerencia si puntaje < 60%.",
+              "@rsk01": "RSG-006",
+              "@rsk12": "V. Gómez / Supervisores",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "clientes"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-15"
+                }
+              },
+              "@rsk03": "Cliente reporta incidentes no atendidos o supervisiones con puntaje < 75% recurrentes",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Supervisión deficiente, falta de seguimiento de novedades, comunicación tardía",
+              "@rsk15": "ISO 9.1.2 / 8.2.1",
+              "@rsk05": "Pérdida del contrato, reclamo formal, impacto reputacional",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a349296f-cdf9-429b-a7a9-d1572b1f3d5c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Proveedor de servicios críticos sin evaluación vigente",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-no"
+              },
+              "@rsk11": "Crear y aplicar FOR-SGC-004 Evaluación de Proveedores. Criterios: calidad, plazo, precio, cumplimiento. Reevaluación anual.",
+              "@rsk01": "RSG-007",
+              "@rsk12": "M. I. Torres",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-calidad"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "Proveedores (uniformes, equipos, insumos) sin evaluación formal anual (NC-003 activa)",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Falta de procedimiento de evaluación de proveedores implementado",
+              "@rsk15": "ISO 8.4.2b",
+              "@rsk05": "Insumos de baja calidad en campo, NC mayor en auditoría externa",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p4"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i3"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "19048276-0fba-48ea-bda5-ded90c737a43",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Objetivos de calidad sin indicadores medibles",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-no"
+              },
+              "@rsk11": "Definir objetivos SMART para cada proceso. Asignar KPIs con meta, frecuencia y responsable. Revisar en Dashboard mensual.",
+              "@rsk01": "RSG-008",
+              "@rsk12": "M. I. Torres / Dirección",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-calidad"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "Objetivos SGC declarados sin metas numéricas, frecuencia de medición o responsable (NC-001 activa)",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Planificación SGC incompleta, revisión de dirección sin datos de desempeño",
+              "@rsk15": "ISO 6.2.1b",
+              "@rsk05": "Imposibilidad de demostrar mejora continua, NC mayor en auditoría",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p4"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 16,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d787cc2a-a3c7-4123-a716-1225aa90a147",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Incidente de seguridad en objetivo (robo, intrusión, accidente)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-si"
+              },
+              "@rsk11": "Protocolo de respuesta a incidentes activo. Reporte inmediato (FOR-OPS-003). Simulacros semestrales. Seguro de responsabilidad civil.",
+              "@rsk01": "RSG-009",
+              "@rsk12": "Supervisores / V. Gómez",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "op-seg"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-06-30"
+                }
+              },
+              "@rsk03": "Ocurre un incidente de seguridad en un objetivo custodiado por SPI (robo, intrusión, vandalismo, accidente)",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Fallo en ronda, vigilador sin formación, equipos deficientes, falta de protocolo de emergencia",
+              "@rsk15": "ISO 8.5.1 / 8.7",
+              "@rsk05": "Daño material al cliente, lesiones, responsabilidad civil, pérdida de contrato",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p2"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i5"
+              },
+              "@rsk08": 10,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ac5f98c5-7252-4285-b84b-05ec7702848d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Revisión por la dirección sin datos de desempeño completos",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-no"
+              },
+              "@rsk11": "Crear acta de revisión por la dirección con todos los inputs ISO 9.3.2. Dashboard SGC como fuente de datos. Programar antes del 30/04/2026.",
+              "@rsk01": "RSG-010",
+              "@rsk12": "M. I. Torres / Dirección",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-calidad"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "La revisión anual de dirección no incluye todos los inputs requeridos por ISO 9001:2015 (NC-002 activa)",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Falta de registros consolidados de auditorías, NC, satisfacción del cliente, desempeño de procesos",
+              "@rsk15": "ISO 9.3.3",
+              "@rsk05": "NC mayor en auditoría externa, decisiones estratégicas sin base de datos",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "68acd75c-c97e-4cd0-b1ca-efe83ff83072",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Auditoría interna no planificada ni ejecutada",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-no"
+              },
+              "@rsk11": "Elaborar Programa de Auditorías Internas 2026. Capacitar auditor interno. Primera auditoría antes del 30/04/2026.",
+              "@rsk01": "RSG-011",
+              "@rsk12": "M. I. Torres",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-nc"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "No existe programa formal de auditorías internas anuales (NC-004 activa)",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Falta de planificación SGC, recursos humanos sin formación en auditoría interna",
+              "@rsk15": "ISO 9.2.1b",
+              "@rsk05": "NC mayor en auditoría externa, SGC sin verificación interna, riesgos no detectados",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p5"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i4"
+              },
+              "@rsk08": 20,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "critico"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "21fe55cb-a970-4f60-a020-21a36f5140bd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Alta rotación de personal de vigilancia",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Encuesta de clima laboral semestral. Programa de retención. Indicador de rotación mensual en Dashboard.",
+              "@rsk01": "RSG-012",
+              "@rsk12": "RRHH / V. Gómez",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "rrhh"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-06-30"
+                }
+              },
+              "@rsk03": "Tasa de rotación mensual > 10% afecta continuidad del servicio y calidad",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "abierto"
+              },
+              "@rsk04": "Condiciones laborales, remuneración no competitiva, falta de incentivos",
+              "@rsk15": "ISO 7.1.2",
+              "@rsk05": "Puestos sin cobertura, costos de selección/capacitación, impacto en calidad del servicio",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i3"
+              },
+              "@rsk08": 9,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "medio"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ae722a39-73af-4797-ae9c-f61aa07c0920",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Información documentada desactualizada o no disponible",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Repositorio centralizado en Google Drive con control de versiones. Revisión anual de documentos. Acceso desde app SGC.",
+              "@rsk01": "RSG-013",
+              "@rsk12": "M. I. Torres",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "sgc-calidad"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-31"
+                }
+              },
+              "@rsk03": "Procedimientos, instructivos y formularios sin revisión periódica o sin control de versiones",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de gestión documental, acceso limitado al personal operativo",
+              "@rsk15": "ISO 7.5",
+              "@rsk05": "Personal opera con documentación obsoleta, error operativo, NC en auditoría",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p3"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i3"
+              },
+              "@rsk08": 9,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "medio"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b2389f3b-bac5-4a31-a1f9-2a1229f450fb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Incumplimiento normativo / legal (habilitaciones, seguros)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-si"
+              },
+              "@rsk11": "Calendario de vencimientos legales. Alerta automática 60 días antes. Responsable legal designado.",
+              "@rsk01": "RSG-014",
+              "@rsk12": "V. Gómez / Administración",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "legal"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-06-30"
+                }
+              },
+              "@rsk03": "Vencimiento de habilitaciones empresariales, seguros de ART o responsabilidad civil sin renovar",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de control de vencimientos, procesos burocráticos lentos",
+              "@rsk15": "ISO 6.1 / 4.2",
+              "@rsk05": "Multas, suspensión de actividad, inhabilitación, pérdida de clientes",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p2"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i5"
+              },
+              "@rsk08": 10,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ac9f7e48-107e-4f74-b995-335c7a534173",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Comunicación interna deficiente entre supervisores y operativos",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rsk10": {
+                "type": "Select",
+                "optionId": "ctrl-parcial"
+              },
+              "@rsk11": "Módulo de novedades operativas en app SGC. Email automático QHSE por incidente. Libro digital de guardia.",
+              "@rsk01": "RSG-015",
+              "@rsk12": "Supervisores / I. Torres",
+              "@rsk02": {
+                "type": "Select",
+                "optionId": "op-seg"
+              },
+              "@rsk13": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-30"
+                }
+              },
+              "@rsk03": "Novedades operativas no comunicadas a tiempo entre turnos o entre supervisor y operativo",
+              "@rsk14": {
+                "type": "Select",
+                "optionId": "en-curso"
+              },
+              "@rsk04": "Falta de canal formal, uso informal de WhatsApp sin trazabilidad",
+              "@rsk15": "ISO 7.4",
+              "@rsk05": "Incidentes sin respuesta oportuna, pérdida de información crítica, errores en el puesto",
+              "@rsk06": {
+                "type": "Select",
+                "optionId": "p4"
+              },
+              "@rsk07": {
+                "type": "Select",
+                "optionId": "i3"
+              },
+              "@rsk08": 12,
+              "@rsk09": {
+                "type": "Select",
+                "optionId": "alto"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z"
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV"
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk"
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs"
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw"
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy"
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz"
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV"
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk"
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs"
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw"
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy"
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz"
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV"
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z"
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV"
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk"
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs"
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw"
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy"
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz"
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV"
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk"
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs"
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw"
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy"
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz"
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV"
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z"
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV"
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk"
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs"
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw"
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy"
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz"
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV"
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk"
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs"
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw"
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy"
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz"
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV"
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z"
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV"
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk"
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs"
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw"
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy"
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz"
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV"
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk"
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs"
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw"
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy"
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz"
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV"
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs",
+            "hidden": false
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw",
+            "hidden": false
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy",
+            "hidden": false
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz",
+            "hidden": false
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV",
+            "hidden": false
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@rsk01": {
+            "id": "/attributes/@rsk01",
+            "fieldPath": "/attributes/@rsk01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@rsk02": {
+            "id": "/attributes/@rsk02",
+            "fieldPath": "/attributes/@rsk02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@rsk03": {
+            "id": "/attributes/@rsk03",
+            "fieldPath": "/attributes/@rsk03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@rsk04": {
+            "id": "/attributes/@rsk04",
+            "fieldPath": "/attributes/@rsk04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@rsk05": {
+            "id": "/attributes/@rsk05",
+            "fieldPath": "/attributes/@rsk05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@rsk06": {
+            "id": "/attributes/@rsk06",
+            "fieldPath": "/attributes/@rsk06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@rsk07": {
+            "id": "/attributes/@rsk07",
+            "fieldPath": "/attributes/@rsk07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@rsk08": {
+            "id": "/attributes/@rsk08",
+            "fieldPath": "/attributes/@rsk08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@rsk09": {
+            "id": "/attributes/@rsk09",
+            "fieldPath": "/attributes/@rsk09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@rsk10": {
+            "id": "/attributes/@rsk10",
+            "fieldPath": "/attributes/@rsk10",
+            "rank": "zzs",
+            "hidden": false
+          },
+          "/attributes/@rsk11": {
+            "id": "/attributes/@rsk11",
+            "fieldPath": "/attributes/@rsk11",
+            "rank": "zzw",
+            "hidden": false
+          },
+          "/attributes/@rsk12": {
+            "id": "/attributes/@rsk12",
+            "fieldPath": "/attributes/@rsk12",
+            "rank": "zzy",
+            "hidden": false
+          },
+          "/attributes/@rsk13": {
+            "id": "/attributes/@rsk13",
+            "fieldPath": "/attributes/@rsk13",
+            "rank": "zzz",
+            "hidden": false
+          },
+          "/attributes/@rsk14": {
+            "id": "/attributes/@rsk14",
+            "fieldPath": "/attributes/@rsk14",
+            "rank": "zzzV",
+            "hidden": false
+          },
+          "/attributes/@rsk15": {
+            "id": "/attributes/@rsk15",
+            "fieldPath": "/attributes/@rsk15",
+            "rank": "zzzk",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@rsk10": {
+        "type": "Select",
+        "displayName": "Control Existente",
+        "options": {
+          "ctrl-si": {
+            "id": "ctrl-si",
+            "name": "Sí — Control implementado",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "ctrl-parcial": {
+            "id": "ctrl-parcial",
+            "name": "Parcial — En proceso",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "ctrl-no": {
+            "id": "ctrl-no",
+            "name": "No — Sin control",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@rsk11": {
+        "type": "string",
+        "displayName": "Acción de Mitigación"
+      },
+      "@rsk01": {
+        "type": "string",
+        "displayName": "Código"
+      },
+      "@rsk12": {
+        "type": "string",
+        "displayName": "Responsable"
+      },
+      "@rsk02": {
+        "type": "Select",
+        "displayName": "Área / Proceso",
+        "options": {
+          "op-seg": {
+            "id": "op-seg",
+            "name": "Operaciones — Seguridad",
+            "color": "#3b82f6",
+            "rank": "0"
+          },
+          "op-rondas": {
+            "id": "op-rondas",
+            "name": "Operaciones — Rondas",
+            "color": "#06b6d4",
+            "rank": "1"
+          },
+          "op-presentismo": {
+            "id": "op-presentismo",
+            "name": "Operaciones — Presentismo",
+            "color": "#8b5cf6",
+            "rank": "2"
+          },
+          "sgc-calidad": {
+            "id": "sgc-calidad",
+            "name": "SGC — Calidad",
+            "color": "#f59e0b",
+            "rank": "3"
+          },
+          "sgc-nc": {
+            "id": "sgc-nc",
+            "name": "SGC — No Conformidades",
+            "color": "#ef4444",
+            "rank": "4"
+          },
+          "rrhh": {
+            "id": "rrhh",
+            "name": "RRHH — Capacitación",
+            "color": "#10b981",
+            "rank": "5"
+          },
+          "infraestructura": {
+            "id": "infraestructura",
+            "name": "Infraestructura / Equipos",
+            "color": "#6b7280",
+            "rank": "6"
+          },
+          "clientes": {
+            "id": "clientes",
+            "name": "Clientes / Objetivos",
+            "color": "#f97316",
+            "rank": "7"
+          },
+          "legal": {
+            "id": "legal",
+            "name": "Legal / Normativo",
+            "color": "#dc2626",
+            "rank": "8"
+          },
+          "tecnologia": {
+            "id": "tecnologia",
+            "name": "Tecnología / CCTV",
+            "color": "#7c3aed",
+            "rank": "9"
+          }
+        }
+      },
+      "@rsk13": {
+        "type": "DateTime",
+        "title": "Fecha Límite"
+      },
+      "@rsk03": {
+        "type": "string",
+        "displayName": "Descripción del Riesgo"
+      },
+      "@rsk14": {
+        "type": "Select",
+        "displayName": "Estado",
+        "options": {
+          "abierto": {
+            "id": "abierto",
+            "name": "Abierto",
+            "color": "#ef4444",
+            "rank": "0"
+          },
+          "en-curso": {
+            "id": "en-curso",
+            "name": "En curso",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "cerrado": {
+            "id": "cerrado",
+            "name": "Cerrado",
+            "color": "#10b981",
+            "rank": "2"
+          },
+          "aceptado": {
+            "id": "aceptado",
+            "name": "Aceptado / Residual",
+            "color": "#6b7280",
+            "rank": "3"
+          }
+        }
+      },
+      "@rsk04": {
+        "type": "string",
+        "displayName": "Causa Raíz"
+      },
+      "@rsk15": {
+        "type": "string",
+        "displayName": "Ref. ISO 9001:2015"
+      },
+      "@rsk05": {
+        "type": "string",
+        "displayName": "Consecuencia Potencial"
+      },
+      "@rsk06": {
+        "type": "Select",
+        "displayName": "Probabilidad (P)",
+        "options": {
+          "p1": {
+            "id": "p1",
+            "name": "1 — Muy baja (raro)",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "p2": {
+            "id": "p2",
+            "name": "2 — Baja (improbable)",
+            "color": "#84cc16",
+            "rank": "1"
+          },
+          "p3": {
+            "id": "p3",
+            "name": "3 — Media (posible)",
+            "color": "#f59e0b",
+            "rank": "2"
+          },
+          "p4": {
+            "id": "p4",
+            "name": "4 — Alta (probable)",
+            "color": "#f97316",
+            "rank": "3"
+          },
+          "p5": {
+            "id": "p5",
+            "name": "5 — Muy alta (casi seguro)",
+            "color": "#ef4444",
+            "rank": "4"
+          }
+        }
+      },
+      "@rsk07": {
+        "type": "Select",
+        "displayName": "Impacto (I)",
+        "options": {
+          "i1": {
+            "id": "i1",
+            "name": "1 — Insignificante",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "i2": {
+            "id": "i2",
+            "name": "2 — Menor",
+            "color": "#84cc16",
+            "rank": "1"
+          },
+          "i3": {
+            "id": "i3",
+            "name": "3 — Moderado",
+            "color": "#f59e0b",
+            "rank": "2"
+          },
+          "i4": {
+            "id": "i4",
+            "name": "4 — Mayor",
+            "color": "#f97316",
+            "rank": "3"
+          },
+          "i5": {
+            "id": "i5",
+            "name": "5 — Catastrófico",
+            "color": "#ef4444",
+            "rank": "4"
+          }
+        }
+      },
+      "@rsk08": {
+        "type": "number",
+        "displayName": "Nivel de Riesgo (P×I)",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@rsk09": {
+        "type": "Select",
+        "displayName": "Clasificación del Riesgo",
+        "options": {
+          "bajo": {
+            "id": "bajo",
+            "name": "BAJO (1–4)",
+            "color": "#10b981",
+            "rank": "0"
+          },
+          "medio": {
+            "id": "medio",
+            "name": "MEDIO (5–9)",
+            "color": "#f59e0b",
+            "rank": "1"
+          },
+          "alto": {
+            "id": "alto",
+            "name": "ALTO (10–16)",
+            "color": "#f97316",
+            "rank": "2"
+          },
+          "critico": {
+            "id": "critico",
+            "name": "CRÍTICO (17–25)",
+            "color": "#ef4444",
+            "rank": "3"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📍"
+    }
+  }
+}

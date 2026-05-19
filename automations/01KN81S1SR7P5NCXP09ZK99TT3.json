@@ -1,0 +1,95 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — Subir Documentos ISO al Drive",
+  "trigger": {
+    "valid": true,
+    "displayName": "▶ Ejecutar carga de documentos ISO al Drive",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "aa000001-0000-0000-0000-000000000001",
+      "valid": false,
+      "displayName": "📁 Crear carpeta Procedimientos SPI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "pieceVersion": "1.0.0",
+        "actionName": "googledrive.createNewFolder.v2",
+        "input": {
+          "folderName": "Procedimientos SPI"
+        }
+      }
+    },
+    {
+      "name": "aa000002-0000-0000-0000-000000000002",
+      "valid": false,
+      "displayName": "📁 Crear carpeta Formularios SPI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "pieceVersion": "1.0.0",
+        "actionName": "googledrive.createNewFolder.v2",
+        "input": {
+          "folderName": "Formularios SPI"
+        }
+      }
+    },
+    {
+      "name": "aa000005-0000-0000-0000-000000000005",
+      "valid": false,
+      "displayName": "📋 Subir FOR-OPS-001 Rondas QR (imprimible)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "pieceVersion": "1.0.0",
+        "actionName": "googledrive.createNewTextFile.v2",
+        "input": {
+          "text": "================================================================================\n         SPI SEGURIDAD S.A. — FORMULARIO DE CONTROL DE RONDAS\n================================================================================\n  Código: FOR-OPS-001 | Versión: 1.0 | Fecha: __________ | Hoja: __ / __\n================================================================================\n\n  TURNO:  [  ] Mañana 07-15  [  ] Tarde 15-23  [  ] Noche 19-07\n          [  ] 24 horas      [  ] Fijo diurno\n\n  N° DE RONDA DEL TURNO: _____________\n\n  CLIENTE / OBJETIVO: ________________________________________________\n\n  DIRECCIÓN DEL OBJETIVO: ____________________________________________\n\n  NIVEL DE CRITICIDAD: [  ] Alta    [  ] Media    [  ] Baja\n\n  ─── PERSONAL ───────────────────────────────────────────────────────\n\n  VIGILADOR (Nombre y Apellido): _____________________________________\n\n  LEGAJO N°: ______________\n\n  SUPERVISOR DE ZONA: ________________________________________________\n\n  ─── PUNTO DE CONTROL ───────────────────────────────────────────────\n\n  CÓDIGO QR DEL PUNTO: _______________________________________________\n\n  NOMBRE DEL PUNTO: __________________________________________________\n\n  SECTOR / ZONA: _____________________________________________________\n\n  HORA PROGRAMADA: __________   HORA REAL DE ESCANEO: __________\n\n  ESCANEO QR: [  ] SI — Escaneado correctamente\n              [  ] NO — Sin escaneo\n              [  ] NO — QR dañado\n\n  HAY NOVEDAD: [  ] NO — Sin novedad     [  ] SI — Ver observaciones\n\n  ─── ÍTEMS VERIFICADOS ──────────────────────────────────────────────\n\n  [  ] Condiciones climáticas          [  ] Iluminación\n  [  ] Estado de puertas / accesos     [  ] Cámaras CCTV operativas\n  [  ] Matafuegos presentes            [  ] Botón antipánico\n  [  ] Libro de guardia al día         [  ] Elementos de seguridad\n  [  ] Señalización de emergencia      [  ] Estado de instalaciones\n  [  ] Personal en puesto\n\n  ─── OBSERVACIONES ──────────────────────────────────────────────────\n\n  ___________________________________________________________________\n  ___________________________________________________________________\n  ___________________________________________________________________\n  ___________________________________________________________________\n\n  ─── FIRMA ──────────────────────────────────────────────────────────\n\n  Firma del vigilador:\n\n\n  ____________________________\n  Aclaración: ________________\n\n  Email supervisor: __________________________________________\n\n================================================================================\n  INSTRUCCIÓN: Completar un formulario por ronda. Entregar al supervisor\n  al finalizar el turno. El supervisor carga el registro al sistema digital.\n  Conservar copia física como respaldo.\n================================================================================\n  SPI Seguridad S.A. | FOR-OPS-001 v1.0 | ISO 9001:2015 | 02/04/2026\n================================================================================",
+          "fileName": "FOR-OPS-001 Control de Rondas QR — Formulario Imprimible v1.0",
+          "fileType": "text/plain"
+        }
+      }
+    },
+    {
+      "name": "aa000006-0000-0000-0000-000000000006",
+      "valid": false,
+      "displayName": "📋 Subir FOR-OPS-002 Presentismo (imprimible)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "pieceVersion": "1.0.0",
+        "actionName": "googledrive.createNewTextFile.v2",
+        "input": {
+          "text": "================================================================================\n           SPI SEGURIDAD S.A. — CONTROL DE PRESENTISMO\n================================================================================\n  Código: FOR-OPS-002 | Versión: 1.0 | Fecha: __________ | Turno: _________\n================================================================================\n\n  OBJETIVO / PUESTO: _________________________________________________\n\n  SUPERVISOR: ________________________________________________________\n\n  ─── DATOS DEL PERSONAL ─────────────────────────────────────────────\n\n  NOMBRE Y APELLIDO: _________________________________________________\n\n  NÚMERO DE DOCUMENTO (DNI): _________________________________________\n\n  TURNO:  [  ] Mañana (07:00-15:00)    [  ] Tarde (15:00-23:00)\n          [  ] Noche (19:00-07:00)      [  ] Diurno fijo\n\n  ─── HORARIOS ───────────────────────────────────────────────────────\n\n  HORA DE INGRESO: __________    HORA DE EGRESO: __________\n\n  ─── ESTADO DE ASISTENCIA ───────────────────────────────────────────\n\n  [  ] PRESENTE        [  ] TARDANZA        [  ] AUSENTE\n\n  En caso de AUSENTE o TARDANZA, motivo:\n  ___________________________________________________________________\n  ___________________________________________________________________\n\n  ─── OBSERVACIONES ──────────────────────────────────────────────────\n\n  ___________________________________________________________________\n  ___________________________________________________________________\n  ___________________________________________________________________\n\n  ─── FIRMAS ─────────────────────────────────────────────────────────\n\n  Firma del personal:               Firma del supervisor:\n\n\n  ____________________________      ____________________________\n  Aclaración: ________________      Aclaración: ________________\n\n  ─── USO EXCLUSIVO SUPERVISIÓN ──────────────────────────────────────\n\n  [  ] Datos cargados al sistema digital\n  Fecha de carga: __________    Cargado por: ______________________\n\n================================================================================\n  INSTRUCCIÓN: Completar al inicio del turno. El personal debe firmar.\n  En caso de ausencia, notificar a QHSE: plaudari.qhse@spiseguridad.com.ar\n  Conservar una semana y luego archivar en bibliorato mensual.\n================================================================================\n  SPI Seguridad S.A. | FOR-OPS-002 v1.0 | ISO 9001:2015 | 02/04/2026\n================================================================================",
+          "fileName": "FOR-OPS-002 Control de Presentismo — Formulario Imprimible v1.0",
+          "fileType": "text/plain"
+        }
+      }
+    },
+    {
+      "name": "aa000007-0000-0000-0000-000000000007",
+      "valid": false,
+      "displayName": "📋 Subir FOR-OPS-003 Supervision Operativa (imprimible)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "pieceVersion": "1.0.0",
+        "actionName": "googledrive.createNewTextFile.v2",
+        "input": {
+          "text": "================================================================================\n          SPI SEGURIDAD S.A. — SUPERVISIÓN OPERATIVA\n================================================================================\n  Código: FOR-OPS-003 | Versión: 1.0 | Resultado: _______ | Puntaje: ____%\n================================================================================\n\n  FECHA: _______________    HORA: ___________\n\n  SUPERVISOR: ________________________________________________________\n\n  ─── DATOS DEL OBJETIVO ─────────────────────────────────────────────\n\n  CLIENTE / OBJETIVO: ________________________________________________\n\n  DIRECCIÓN: _________________________________________________________\n\n  TURNO:  [  ] Mañana (07:00-15:00)    [  ] Tarde (15:00-23:00)\n          [  ] Noche (19:00-07:00)\n\n  ─── DATOS DEL VIGILADOR ────────────────────────────────────────────\n\n  NOMBRE Y APELLIDO: _________________________________________________\n\n  LEGAJO N°: ______________\n\n  ¿EN SU PUESTO?:             [  ] SI    [  ] NO\n  UNIFORME REGLAMENTARIO:     [  ] SI    [  ] NO\n  LIBRO DE GUARDIA AL DÍA:    [  ] SI    [  ] NO\n  CONOCIMIENTO DEL PUESTO:    [  ] SI    [  ] NO\n\n  ─── ESTADO DEL OBJETIVO — CHECKLIST ────────────────────────────────\n\n  ÍTEM                              CUMPLE    NO CUMPLE    N/A\n  ──────────────────────────────────────────────────────────────────\n  1. Accesos controlados            [  ]        [  ]       [  ]\n  2. CCTV operativo                 [  ]        [  ]       [  ]\n  3. Iluminación adecuada           [  ]        [  ]       [  ]\n  4. Botón antipánico operativo     [  ]        [  ]       [  ]\n  5. Matafuegos vigentes            [  ]        [  ]       [  ]\n  6. Señalización de emergencia     [  ]        [  ]       [  ]\n  7. Equipamiento de seguridad      [  ]        [  ]       [  ]\n  8. Libro de novedades al día      [  ]        [  ]       [  ]\n  ──────────────────────────────────────────────────────────────────\n\n  TOTAL CUMPLE: _____ / 8     PUNTAJE: _____%\n\n  RESULTADO:\n  [  ] EXCELENTE (>=90%)    [  ] SATISFACTORIO (>=75%)\n  [  ] REGULAR   (>=60%)    [  ] CRÍTICO (<60%)\n\n  ─── CONTROL DE RONDAS ──────────────────────────────────────────────\n\n  RONDAS REALIZADAS: _______    RONDAS PROGRAMADAS: _______\n\n  QR ESCANEADOS CORRECTAMENTE: [  ] SI    [  ] NO\n\n  ─── SATISFACCIÓN DEL CLIENTE ───────────────────────────────────────\n\n  [  ] Muy satisfecho    [  ] Satisfecho\n  [  ] Con observaciones [  ] Insatisfecho\n\n  ─── OBSERVACIONES / NOVEDADES ──────────────────────────────────────\n\n  ___________________________________________________________________\n  ___________________________________________________________________\n  ___________________________________________________________________\n  ___________________________________________________________________\n\n  ─── FIRMAS ─────────────────────────────────────────────────────────\n\n  Firma del supervisor:             Firma del vigilador (conforme):\n\n\n  ____________________________      ____________________________\n  Aclaración: ________________      Aclaración: ________________\n\n  ─── USO EXCLUSIVO CALIDAD / QHSE ───────────────────────────────────\n\n  [  ] Datos cargados al sistema digital\n  [  ] Notificación QHSE enviada (puntaje < 75%)\n  Fecha de carga: __________    Cargado por: ______________________\n\n  ─── TABLA DE CÁLCULO DE PUNTAJE ────────────────────────────────────\n\n  Ítems que CUMPLEN (C):   _____ × (100 / total aplicables) = _____%\n  (No aplicables se excluyen del total)\n\n  Ejemplo: 6 Cumplen, 1 No cumple, 1 N/A → 6/7 × 100 = 85.7% SATISFACTORIO\n\n================================================================================\n  INSTRUCCIÓN: El supervisor completa este formulario en cada visita al objetivo.\n  Si el puntaje es < 75%, notificar a: plaudari.qhse@spiseguridad.com.ar\n  Ítems \"No cumple\" generan novedades operativas en el sistema.\n  Cargar al sistema dentro de las 2 horas de finalizada la supervisión.\n================================================================================\n  SPI Seguridad S.A. | FOR-OPS-003 v1.0 | ISO 9001:2015 | 02/04/2026\n================================================================================",
+          "fileName": "FOR-OPS-003 Supervision Operativa — Formulario Imprimible v1.0",
+          "fileType": "text/plain"
+        }
+      }
+    }
+  ]
+}

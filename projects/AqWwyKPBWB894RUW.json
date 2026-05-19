@@ -1,0 +1,1125 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a2000001-0000-0000-0000-000000000002",
+        "text": {
+          "ops": [
+            {
+              "insert": "Control de Rondas QR — SPI S.A."
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a1b2c3d4-0401-4001-aaaa-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Semana 01/04–06/04/2026 — Datos estimados (sin reporte formal)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a1b2c3d4-0401-4002-aaaa-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Semana 07/04–13/04/2026 — Datos verificados (Taskade)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "144fd5a8-0a5d-4990-9d22-dde058aa7df0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Racing Club — Semana 07/04–13/04/2026",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ron01": "Racing Club",
+              "@ron02": "Sánchez / Mitre",
+              "@ron03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13"
+                }
+              },
+              "@ron04": 48,
+              "@ron05": 47,
+              "@ron06": 97.9,
+              "@ron07": {
+                "type": "Select",
+                "optionId": "ok"
+              },
+              "@ron08": "1 ronda omitida turno noche madrugada — subsanada con informe. Desempeño general excelente."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "570d60e4-94e7-4265-8beb-ed30fe41f500",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HPCC — Semana 07/04–13/04/2026",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ron01": "HPCC",
+              "@ron02": "López / García",
+              "@ron03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13"
+                }
+              },
+              "@ron04": 36,
+              "@ron05": 21,
+              "@ron06": 58.3,
+              "@ron07": {
+                "type": "Select",
+                "optionId": "critico"
+              },
+              "@ron08": "Sector B sigue con cobertura deficiente. NC-001 abierta. Se reforzó supervisión presencial. Técnico asignado para verificar puntos QR dañados."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9f07f1e6-ae6f-4d2e-974e-9eb232cefa80",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Konig — Semana 07/04–13/04/2026",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ron01": "Konig",
+              "@ron02": "Fernández / Ruiz",
+              "@ron03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13"
+                }
+              },
+              "@ron04": 24,
+              "@ron05": 24,
+              "@ron06": 100,
+              "@ron07": {
+                "type": "Select",
+                "optionId": "ok"
+              },
+              "@ron08": "Cumplimiento perfecto. Equipo consolidado. Sin novedades."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f0bb74b3-7326-4b1e-9cf7-eb0dcae700ff",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ATILRA — Semana 07/04–13/04/2026",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ron01": "ATILRA",
+              "@ron02": "Martínez / Pereira",
+              "@ron03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13"
+                }
+              },
+              "@ron04": 20,
+              "@ron05": 18,
+              "@ron06": 90,
+              "@ron07": {
+                "type": "Select",
+                "optionId": "alerta"
+              },
+              "@ron08": "2 rondas sin QR por falla de señal en zona norte. Se reportó al técnico. Resto del período sin novedades."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ffe7ece2-3e1b-4d27-a554-018b7129d513",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Avellaneda — Semana 07/04–13/04/2026",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ron01": "Avellaneda",
+              "@ron02": "Pérez / Gómez",
+              "@ron03": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13"
+                }
+              },
+              "@ron04": 32,
+              "@ron05": 29,
+              "@ron06": 90.6,
+              "@ron07": {
+                "type": "Select",
+                "optionId": "alerta"
+              },
+              "@ron08": "3 rondas afectadas por trabajos técnicos en panel de alarma (INC-002 en curso). Sistema CCTV parcialmente operativo."
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z"
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV"
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk"
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs"
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw"
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy"
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz"
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z"
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV"
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk"
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs"
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw"
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy"
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz"
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z"
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV"
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk"
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs"
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw"
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy"
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz"
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z"
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV"
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk"
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs"
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw"
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy"
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz"
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ron01": {
+            "id": "/attributes/@ron01",
+            "fieldPath": "/attributes/@ron01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@ron02": {
+            "id": "/attributes/@ron02",
+            "fieldPath": "/attributes/@ron02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@ron03": {
+            "id": "/attributes/@ron03",
+            "fieldPath": "/attributes/@ron03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ron04": {
+            "id": "/attributes/@ron04",
+            "fieldPath": "/attributes/@ron04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@ron05": {
+            "id": "/attributes/@ron05",
+            "fieldPath": "/attributes/@ron05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@ron06": {
+            "id": "/attributes/@ron06",
+            "fieldPath": "/attributes/@ron06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@ron07": {
+            "id": "/attributes/@ron07",
+            "fieldPath": "/attributes/@ron07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@ron08": {
+            "id": "/attributes/@ron08",
+            "fieldPath": "/attributes/@ron08",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@ron01": {
+        "type": "string",
+        "displayName": "Sede"
+      },
+      "@ron02": {
+        "type": "string",
+        "displayName": "Vigilador"
+      },
+      "@ron03": {
+        "type": "DateTime",
+        "title": "Fecha"
+      },
+      "@ron04": {
+        "type": "number",
+        "displayName": "Rondas Programadas",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@ron05": {
+        "type": "number",
+        "displayName": "Rondas Realizadas",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@ron06": {
+        "type": "number",
+        "displayName": "Cumplimiento %",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "unit",
+          "config": {
+            "type": "standard",
+            "unit": "percent"
+          }
+        }
+      },
+      "@ron07": {
+        "type": "Select",
+        "displayName": "Estado",
+        "options": {
+          "ok": {
+            "id": "ok",
+            "name": "✅ Cumple (≥95%)",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "alerta": {
+            "id": "alerta",
+            "name": "⚠️ En Alerta",
+            "color": "#eab308",
+            "rank": "1"
+          },
+          "critico": {
+            "id": "critico",
+            "name": "🔴 Crítico",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      },
+      "@ron08": {
+        "type": "string",
+        "displayName": "Observaciones"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📖"
+    }
+  }
+}

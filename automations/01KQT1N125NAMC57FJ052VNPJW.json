@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Rondas QR → Dashboard (Auto-Sync)",
+  "trigger": {
+    "valid": false,
+    "displayName": "📍 Nuevo archivo en carpeta Rondas / Análisis",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "4f313794-dd22-4f70-899b-a299ed98a1e0",
+      "valid": true,
+      "displayName": "📄 Extraer contenido del análisis de Rondas",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"fileUrl\"] }}"
+        }
+      }
+    },
+    {
+      "name": "b87b975e-3f81-4898-9c1b-9bc22a3521c7",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar KPIs de Rondas QR",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ 4f313794-dd22-4f70-899b-a299ed98a1e0[\"content\"] }}",
+          "prompt": "Eres el Analista Operativo de SPI S.A. Analizas planillas y reportes de rondas de control QR de seguridad privada. Del archivo extraé y estructurá para CADA RONDA o REGISTRO:\n\n1. FECHA (DD/MM/YYYY)\n2. HORA del escaneo o ronda\n3. TURNO (Mañana/Tarde/Noche)\n4. OBJETIVO/CLIENTE/SEDE\n5. VIGILADOR responsable\n6. RESULTADO (OK/Completa o Incompleto/Parcial)\n7. ¿HAY NOVEDAD? (Sí/No — descripción breve si aplica)\n8. PUNTOS DE CONTROL relevados\n\nLuego generá un RESUMEN:\n- Total rondas\n- % Cumplimiento (completadas/total × 100)\n- Sedes con menor cumplimiento\n- Vigiladores con novedades\n- Alertas operativas\n\nRespondé en español, formato estructurado. Si algún dato no está disponible, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "2582b8fb-53b0-46b4-8c99-6f94de5eaf66",
+      "valid": false,
+      "displayName": "✅ Registrar Rondas en proyecto Taskade",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "📍 RONDAS QR — {{ trigger[\"file\"] }}\n\n{{ b87b975e-3f81-4898-9c1b-9bc22a3521c7[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "AqWwyKPBWB894RUW"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "AqWwyKPBWB894RUW": {
+      "id": "AqWwyKPBWB894RUW",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

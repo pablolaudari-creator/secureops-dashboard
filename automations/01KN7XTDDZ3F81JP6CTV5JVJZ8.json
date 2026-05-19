@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive → Dashboard — Sincronización Automática",
+  "trigger": {
+    "valid": false,
+    "displayName": "Nuevo archivo en carpeta SPI Drive",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "a1000001-0000-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "📄 Extraer texto del archivo de auditoría",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"fileUrl\"] }}"
+        }
+      }
+    },
+    {
+      "name": "a1000002-0000-0000-0000-000000000002",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar hallazgos de auditoría",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ a1000001-0000-0000-0000-000000000001[\"content\"] }}",
+          "prompt": "Eres el Analista SGC de SPI S.A. (ISO 9001:2015). Analizas el contenido de un informe de auditoría de seguridad privada. Extraé y estructurá:\n\n1. FECHA del informe (DD/MM/YYYY)\n2. OBJETIVO/CLIENTE auditado\n3. AUDITOR responsable\n4. PUNTAJE o % de cumplimiento\n5. RESULTADO (EXCELENTE/SATISFACTORIO/REGULAR/CRÍTICO)\n6. NO CONFORMIDADES detectadas (lista, máx 5)\n7. OBSERVACIONES principales (máx 3)\n8. ACCIONES CORRECTIVAS requeridas\n\nSi algún dato no está, indicá '—'. Respondé en español, formato conciso."
+        }
+      }
+    },
+    {
+      "name": "a1000003-0000-0000-0000-000000000003",
+      "valid": false,
+      "displayName": "✅ Registrar auditoría en proyecto SGC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "📋 AUDITORÍA — {{ trigger[\"file\"] }}\n\n{{ a1000002-0000-0000-0000-000000000002[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

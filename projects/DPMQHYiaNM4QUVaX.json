@@ -1,0 +1,407 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "SPI SGC App — Memory"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b1c2d3e4-f5a6-7890-bcde-f12345678901",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Status: MatrizRiesgos v3.1 — 32 riesgos · Rev. 08/04/2026",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c2d3e4f5-a6b7-8901-cdef-123456789012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ta",
+                  "attributes": {}
+                },
+                {
+                  "insert": "r"
+                },
+                {
+                  "insert": "ea pendi",
+                  "attributes": {}
+                },
+                {
+                  "insert": "ent"
+                },
+                {
+                  "insert": "e",
+                  "attributes": {}
+                },
+                {
+                  "insert": ": Upgrade MatrizRiesgos.tsx"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "d3e4f5a6-b7c8-9012-defa-234567890123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add 3 tabs: Tabla / Mapa de Calor / Por Área",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e4f5a6b7-c8d9-0123-efab-345678901234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Expand to 30 risks (currently 15)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f5a6b7c8-d9e0-1234-fabc-456789012345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Enrich modal with QHSE action button + ISO ref links",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "aa001122-bb33-4444-cc55-dd6677889900",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "LISTO PARA EJECUTAR: MatrizRiesgos.tsx ya leído, plan claro",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bb112233-cc44-5555-dd66-ee7788990011",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Plan: 30 riesgos + 3 tabs (Tabla/Mapa de Calor/Por Área) + modal enriquecido con botón QHSE",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "cc223344-dd55-6666-ee77-ff8899001122",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Archivo: app/src/components/MatrizRiesgos.tsx — reescritura completa",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a6b7c8d9-e0f1-2345-abcd-567890123456",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Completed Modules (all sessions)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "b7c8d9e0-f1a2-3456-bcde-678901234567",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Dashboard, RondasQR, RondasForm, Presentismo, NoConformidades",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8d9e0f1-a2b3-4567-cdef-789012345678",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CCTVAlarmas, Capacitaciones, Supervision, SupervisionOperativa",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d9e0f1a2-b3c4-5678-defa-890123456789",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Incidentes, DriveSync, ClientesObjetivos, MatrizRiesgos (v1 — 15 riesgos)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e0f1a2b3-c4d5-6789-efab-901234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MobileLanding, AgentChat, Header, Sidebar, PrintReport, ToastContainer",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f1a2b3c4-d5e6-7890-fabc-012345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "47 clientes en Taskade project vjNACQB6Yk4rtVmF, workflow 01KN807YFDEQE0QWCS75FTSEW7",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📏"
+    }
+  }
+}

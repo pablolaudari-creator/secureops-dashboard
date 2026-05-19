@@ -1,0 +1,2301 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "87817e16-727f-4a3d-a1bf-2e12ce34ca76",
+        "text": {
+          "ops": [
+            {
+              "insert": "Control de Presentismo y Asistencia - SPI S.A."
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "df9d3751-4e2c-4290-8e82-8e497fe479fa",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Registro Semanal de Presentismo"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "ae126d4d-5303-423a-b77f-3ef0716141dc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Instrucciones",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "551e0c52-b19a-4cb6-af52-8a267fa6bdc4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Completar antes del viernes 18:00hs"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "593f31ac-ffc0-425b-a00a-1716dff373ea",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Responsable: Supervisores por zona"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4f71712b-401b-4155-88b7-b76de6b94180",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Notificacion automatica a: Ines Torres + equipo directivo"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a56131cc-b5dd-45c5-8c0e-9f0732ee28db",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Zona Walter Rodriguez"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "6c73b50d-72da-427b-8ba3-fe2eabd4f25f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Racing Club "
+                    },
+                    {
+                      "insert": "— ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Nogoy"
+                    },
+                    {
+                      "insert": "á",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " 3045"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 6,
+                  "@pres03": 6,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bb03f698-c560-43fd-9cb5-f994d82e9a6d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Etiqueta Negra "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "D",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ard"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Ro",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "c"
+                    },
+                    {
+                      "insert": "h",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": " 1366",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 2,
+                  "@pres03": 2,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d4549c5a-67b2-42ed-add0-d598a25d34d5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Espinosa 90 "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " G"
+                    },
+                    {
+                      "insert": "I Est",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "udi"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "/",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "ENTREGAR",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "S",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "A"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 3,
+                  "@pres03": 2,
+                  "@pres04": 1,
+                  "@pres05": 0,
+                  "@pres06": 67,
+                  "@pres07": 33,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "critico"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "503b7b14-78c3-48c4-be88-ae3b34949d92",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "T. Padilla "
+                    },
+                    {
+                      "insert": "— ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Play"
+                    },
+                    {
+                      "insert": "ó",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "n "
+                    },
+                    {
+                      "insert": "Av",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "ll",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ane"
+                    },
+                    {
+                      "insert": "d",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 2,
+                  "@pres03": 2,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5a8ca557-4a43-43c6-885d-a4748354db15",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Master Bus "
+                    },
+                    {
+                      "insert": "— Ru",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "t"
+                    },
+                    {
+                      "insert": "a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "9",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "K",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "m "
+                    },
+                    {
+                      "insert": "88.5",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Zá",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "rate"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 3,
+                  "@pres03": 3,
+                  "@pres04": 0,
+                  "@pres05": 1,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "alerta"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c5da1a8f-b8f6-4873-a5b8-55518d68df8c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "G"
+                    },
+                    {
+                      "insert": "I Estud",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "i"
+                    },
+                    {
+                      "insert": "o —",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " Tilcara 2731"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 2,
+                  "@pres03": 2,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f3023b61-d7e3-412d-80d6-af95f6af33aa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Bunker HPCC "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Los",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "J",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "zm",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ines "
+                    },
+                    {
+                      "insert": "D",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "l V",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "is"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 4,
+                  "@pres03": 3,
+                  "@pres04": 1,
+                  "@pres05": 0,
+                  "@pres06": 75,
+                  "@pres07": 25,
+                  "@pres08": "W. Rodríguez",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "critico"
+                  }
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f3e0b74e-8962-4ad9-93fe-0061445d7571",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Zona Ivan Torena"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "6fa078ec-5399-432b-bb3c-4faee3335d6d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Konig "
+                    },
+                    {
+                      "insert": "— ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Uruguay 720 "
+                    },
+                    {
+                      "insert": "Piñ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "y",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 3,
+                  "@pres03": 3,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8a9c25ad-c0ab-4fac-a56d-0695d01909c7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Konig "
+                    },
+                    {
+                      "insert": "/ Binka — ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "M"
+                    },
+                    {
+                      "insert": "é",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "xico 1060 "
+                    },
+                    {
+                      "insert": "Piñ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "y",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 3,
+                  "@pres03": 3,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "57d54aab-edaf-40c1-a52b-e7f91a61ee6b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Konig "
+                    },
+                    {
+                      "insert": "— ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "La Bernale"
+                    },
+                    {
+                      "insert": "s",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a "
+                    },
+                    {
+                      "insert": "Q",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ui"
+                    },
+                    {
+                      "insert": "lm",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "es"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 4,
+                  "@pres03": 4,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d85708d9-0b9c-4add-b356-3ac5adaf762d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Konig "
+                    },
+                    {
+                      "insert": "/ Binka — ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Uruguay 552 "
+                    },
+                    {
+                      "insert": "Piñ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "y",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 2,
+                  "@pres03": 2,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "740414a9-2991-409e-ba26-6cb9cd300043",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ATILRA "
+                    },
+                    {
+                      "insert": "— In",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "de"
+                    },
+                    {
+                      "insert": "p",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "end"
+                    },
+                    {
+                      "insert": "enc",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ia "
+                    },
+                    {
+                      "insert": "3332",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "+",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " se"
+                    },
+                    {
+                      "insert": "de",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 3,
+                  "@pres03": 2,
+                  "@pres04": 1,
+                  "@pres05": 1,
+                  "@pres06": 67,
+                  "@pres07": 33,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "critico"
+                  }
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3946bcfd-667e-41da-b3d3-f2a40a7fa10b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Club ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "La Taquara "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "R",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ut"
+                    },
+                    {
+                      "insert": "a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "205",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Cañ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ue"
+                    },
+                    {
+                      "insert": "l",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "as"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "attributes": {
+                  "@pres01": 18,
+                  "@pres02": 2,
+                  "@pres03": 2,
+                  "@pres04": 0,
+                  "@pres05": 0,
+                  "@pres06": 100,
+                  "@pres07": 0,
+                  "@pres08": "I. Torena",
+                  "@pres09": {
+                    "type": "Select",
+                    "optionId": "verde"
+                  }
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "48886bdd-d30e-41e8-8379-703e1889675f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Novedades / Justificaciones de Ausencias"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "57f936de-8793-4ff8-b541-fca4e7a8a5a7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Detalle:"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "6724eb45-e951-4ad6-83b3-ec88a0985bb4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Resumen Mensual"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "8958d4e7-ec4a-4e80-a43f-c219b7d73601",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Total "
+                    },
+                    {
+                      "insert": "turn",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "os planificad"
+                    },
+                    {
+                      "insert": "o",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s: "
+                    },
+                    {
+                      "insert": "Sin",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "da",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "t"
+                    },
+                    {
+                      "insert": "os ca",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "gad",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "os a"
+                    },
+                    {
+                      "insert": "ún",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "complet",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "r ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "n",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "e",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "l "
+                    },
+                    {
+                      "insert": "formul",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ar"
+                    },
+                    {
+                      "insert": "i",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "o "
+                    },
+                    {
+                      "insert": "de la app",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c0822557-d7bc-4c22-9d11-88efdb392f70",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Total turnos cubiertos"
+                    },
+                    {
+                      "insert": ":",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Sin",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "datos — los ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "re"
+                    },
+                    {
+                      "insert": "gi",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s"
+                    },
+                    {
+                      "insert": "tros r",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "al",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "es "
+                    },
+                    {
+                      "insert": "se",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "cargan",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "vía formul",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ar"
+                    },
+                    {
+                      "insert": "io ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "d"
+                    },
+                    {
+                      "insert": "e l",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": " ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "pp",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1835d42b-3f8d-41df-b9ce-1389f88696ac",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Porcentaje de presentismo: "
+                    },
+                    {
+                      "insert": "Se",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "calcula",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "u"
+                    },
+                    {
+                      "insert": "tomáticam",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ent"
+                    },
+                    {
+                      "insert": "e en el da",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s"
+                    },
+                    {
+                      "insert": "hb",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "o"
+                    },
+                    {
+                      "insert": "ard según",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "los",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "r",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "gis",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "t"
+                    },
+                    {
+                      "insert": "ros c",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "rgados",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " en e"
+                    },
+                    {
+                      "insert": "l fo",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "mul",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "rio",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5119ca80-b03d-4440-a2ff-70a503caa9cd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Ausencias "
+                    },
+                    {
+                      "insert": "justificadas / ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "sin justificar: "
+                    },
+                    {
+                      "insert": "Sin",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "aus",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "en"
+                    },
+                    {
+                      "insert": "cias",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "r",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "gist",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "rad"
+                    },
+                    {
+                      "insert": "as",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "al",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "16/04/2026",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "—",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " u"
+                    },
+                    {
+                      "insert": "su",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "rio",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " con"
+                    },
+                    {
+                      "insert": "firmó",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "sin",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " ausen"
+                    },
+                    {
+                      "insert": "c",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "i"
+                    },
+                    {
+                      "insert": "a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s"
+                    },
+                    {
+                      "insert": " reales",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "e0eafd38-de59-403f-9c0b-643f8640d3b0": {
+            "id": "e0eafd38-de59-403f-9c0b-643f8640d3b0",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "V"
+          },
+          "494d24a7-a04f-4533-a710-330958a9e8da": {
+            "id": "494d24a7-a04f-4533-a710-330958a9e8da",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "k"
+          },
+          "bdab3fc3-2518-40cc-b0d6-514ed2cb8ceb": {
+            "id": "bdab3fc3-2518-40cc-b0d6-514ed2cb8ceb",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "s"
+          },
+          "9193f01f-a586-4567-89fb-af0146ab934a": {
+            "id": "9193f01f-a586-4567-89fb-af0146ab934a",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "w"
+          },
+          "12a7041e-66cc-4e03-baba-437b94b2ab0d": {
+            "id": "12a7041e-66cc-4e03-baba-437b94b2ab0d",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "y"
+          },
+          "d70d6646-3fd6-4c8e-a26b-4831cc35d210": {
+            "id": "d70d6646-3fd6-4c8e-a26b-4831cc35d210",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "z"
+          },
+          "90c2ce53-212c-407b-bebe-a4bfcb5dbea9": {
+            "id": "90c2ce53-212c-407b-bebe-a4bfcb5dbea9",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zV"
+          },
+          "47f40901-740d-4949-85fb-8c78da7ff9f2": {
+            "id": "47f40901-740d-4949-85fb-8c78da7ff9f2",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zk"
+          },
+          "b7931956-e93d-4df0-a4a7-a8e0a10f4f9f": {
+            "id": "b7931956-e93d-4df0-a4a7-a8e0a10f4f9f",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "ec4cbaae-efe1-41be-82da-cf013af16f36": {
+            "id": "ec4cbaae-efe1-41be-82da-cf013af16f36",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "V"
+          },
+          "c14da4dd-7cfc-4f6c-9204-009d4143b85c": {
+            "id": "c14da4dd-7cfc-4f6c-9204-009d4143b85c",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "k"
+          },
+          "13868652-34c6-4535-9a93-e054b5d7e6d7": {
+            "id": "13868652-34c6-4535-9a93-e054b5d7e6d7",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "s"
+          },
+          "4d379ff1-f087-4de7-ac84-93e8b17691ab": {
+            "id": "4d379ff1-f087-4de7-ac84-93e8b17691ab",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "w"
+          },
+          "97553595-c5ce-4a92-ac06-869c9d3f3a10": {
+            "id": "97553595-c5ce-4a92-ac06-869c9d3f3a10",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "y"
+          },
+          "71b02653-3e82-4c0d-bbce-0c66df30226a": {
+            "id": "71b02653-3e82-4c0d-bbce-0c66df30226a",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "z"
+          },
+          "97f83979-517c-4674-bf80-d0f1607fc4a0": {
+            "id": "97f83979-517c-4674-bf80-d0f1607fc4a0",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zV"
+          },
+          "c7f39607-be3b-492f-a34c-bb024cd508dc": {
+            "id": "c7f39607-be3b-492f-a34c-bb024cd508dc",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zk"
+          },
+          "d38e12a4-9ab1-42f9-b8c8-5d12ae760c72": {
+            "id": "d38e12a4-9ab1-42f9-b8c8-5d12ae760c72",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zs"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "0e66a017-d160-4da5-b96c-79b5d8dd8bb9": {
+            "id": "0e66a017-d160-4da5-b96c-79b5d8dd8bb9",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "z"
+          },
+          "194326d0-5a47-4f0a-a6f5-5ddc7c481ec0": {
+            "id": "194326d0-5a47-4f0a-a6f5-5ddc7c481ec0",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "zV"
+          },
+          "8e6ce730-67ce-4d53-b2e3-b314fb673262": {
+            "id": "8e6ce730-67ce-4d53-b2e3-b314fb673262",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "zk"
+          },
+          "bd526468-30b4-42c7-94df-fc842064d30d": {
+            "id": "bd526468-30b4-42c7-94df-fc842064d30d",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "zs"
+          },
+          "0c49721b-5d60-4450-9a84-0f7c09bd2257": {
+            "id": "0c49721b-5d60-4450-9a84-0f7c09bd2257",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "zw"
+          },
+          "a3265645-e8ad-4e83-bf85-7a8327a88085": {
+            "id": "a3265645-e8ad-4e83-bf85-7a8327a88085",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "zy"
+          },
+          "9b9d9987-9e9b-49f5-9195-2ed46cca8c3c": {
+            "id": "9b9d9987-9e9b-49f5-9195-2ed46cca8c3c",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zz"
+          },
+          "b7add117-7d10-48c3-8bdc-afaec227e630": {
+            "id": "b7add117-7d10-48c3-8bdc-afaec227e630",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zzV"
+          },
+          "1fbd266c-581a-4660-b063-4ed2cc2731b5": {
+            "id": "1fbd266c-581a-4660-b063-4ed2cc2731b5",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "C",
+        "displayedFields": {
+          "16d9ae82-29ea-4278-8790-40ebeb7b32ce": {
+            "id": "16d9ae82-29ea-4278-8790-40ebeb7b32ce",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "V"
+          },
+          "537f3ebe-26bf-476c-9bb2-20443570ff7b": {
+            "id": "537f3ebe-26bf-476c-9bb2-20443570ff7b",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "k"
+          },
+          "f3a3a05f-6b85-459d-872e-d08a191faaaa": {
+            "id": "f3a3a05f-6b85-459d-872e-d08a191faaaa",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "s"
+          },
+          "ea28f8a2-918a-411c-8d96-ac022a658ef5": {
+            "id": "ea28f8a2-918a-411c-8d96-ac022a658ef5",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "w"
+          },
+          "cee4e88c-57be-4bd4-a046-b95bf2cf0427": {
+            "id": "cee4e88c-57be-4bd4-a046-b95bf2cf0427",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "y"
+          },
+          "d02ea085-d806-4d81-9e72-d1f145cf0bb4": {
+            "id": "d02ea085-d806-4d81-9e72-d1f145cf0bb4",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "z"
+          },
+          "83964bcc-bd02-4958-b737-4116699f4845": {
+            "id": "83964bcc-bd02-4958-b737-4116699f4845",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zV"
+          },
+          "2b52f9ed-dcac-4d94-8944-b14a9e8d6990": {
+            "id": "2b52f9ed-dcac-4d94-8944-b14a9e8d6990",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zk"
+          },
+          "d086e41d-713f-43f3-9455-7746d08af9dc": {
+            "id": "d086e41d-713f-43f3-9455-7746d08af9dc",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "D",
+        "displayedFields": {
+          "887df10e-db23-474e-ab15-c3adcb638507": {
+            "id": "887df10e-db23-474e-ab15-c3adcb638507",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "V"
+          },
+          "37a0ecf7-a3ae-447a-8a99-8db543eef398": {
+            "id": "37a0ecf7-a3ae-447a-8a99-8db543eef398",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "k"
+          },
+          "9d1078f1-49a6-451e-aa60-c28da3aaa402": {
+            "id": "9d1078f1-49a6-451e-aa60-c28da3aaa402",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "s"
+          },
+          "b7fcad21-2543-451f-83a3-2d3a268c2246": {
+            "id": "b7fcad21-2543-451f-83a3-2d3a268c2246",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "w"
+          },
+          "290bc4c8-b17e-4889-886c-db0b966bfc15": {
+            "id": "290bc4c8-b17e-4889-886c-db0b966bfc15",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "y"
+          },
+          "8e488a2c-5175-430d-affd-9fbb4565cf2f": {
+            "id": "8e488a2c-5175-430d-affd-9fbb4565cf2f",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "z"
+          },
+          "35426236-0b33-4021-ad0b-ff4db94c684d": {
+            "id": "35426236-0b33-4021-ad0b-ff4db94c684d",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zV"
+          },
+          "12325015-62ab-4481-b4ed-ca98d4b36693": {
+            "id": "12325015-62ab-4481-b4ed-ca98d4b36693",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zk"
+          },
+          "c9256ffc-9b1f-44b0-90c6-43517aec67aa": {
+            "id": "c9256ffc-9b1f-44b0-90c6-43517aec67aa",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zs"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "6d316f24-2277-4cd6-87c5-1101ec1c983a": {
+            "id": "6d316f24-2277-4cd6-87c5-1101ec1c983a",
+            "fieldPath": "/attributes/@pres01",
+            "rank": "z"
+          },
+          "be4ad93a-cdeb-423b-8d46-ff9da8f523e1": {
+            "id": "be4ad93a-cdeb-423b-8d46-ff9da8f523e1",
+            "fieldPath": "/attributes/@pres02",
+            "rank": "zV"
+          },
+          "e4a20622-cc15-4623-9b31-6fe6b3c77b62": {
+            "id": "e4a20622-cc15-4623-9b31-6fe6b3c77b62",
+            "fieldPath": "/attributes/@pres03",
+            "rank": "zk"
+          },
+          "1a2c7cdc-00da-4deb-9d10-f59bdb3092ac": {
+            "id": "1a2c7cdc-00da-4deb-9d10-f59bdb3092ac",
+            "fieldPath": "/attributes/@pres04",
+            "rank": "zs"
+          },
+          "5468021e-f14e-497f-9947-876292a4cea3": {
+            "id": "5468021e-f14e-497f-9947-876292a4cea3",
+            "fieldPath": "/attributes/@pres05",
+            "rank": "zw"
+          },
+          "1896faec-46de-4465-9f08-8ecf47422c19": {
+            "id": "1896faec-46de-4465-9f08-8ecf47422c19",
+            "fieldPath": "/attributes/@pres06",
+            "rank": "zy"
+          },
+          "b235ce32-3f9e-406d-a7d1-a288dfc3df82": {
+            "id": "b235ce32-3f9e-406d-a7d1-a288dfc3df82",
+            "fieldPath": "/attributes/@pres07",
+            "rank": "zz"
+          },
+          "c7113e3f-fc97-4ae0-9f71-37f9a0e248dd": {
+            "id": "c7113e3f-fc97-4ae0-9f71-37f9a0e248dd",
+            "fieldPath": "/attributes/@pres08",
+            "rank": "zzV"
+          },
+          "c4ef2dc5-77e6-4b5e-8840-cf7c40205765": {
+            "id": "c4ef2dc5-77e6-4b5e-8840-cf7c40205765",
+            "fieldPath": "/attributes/@pres09",
+            "rank": "zzk"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@pres01": {
+        "type": "number",
+        "displayName": "Semana N°",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pres02": {
+        "type": "number",
+        "displayName": "Guardias Planificados",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pres03": {
+        "type": "number",
+        "displayName": "Guardias Presentes",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pres04": {
+        "type": "number",
+        "displayName": "Ausencias",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pres05": {
+        "type": "number",
+        "displayName": "Tardanzas",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@pres06": {
+        "type": "number",
+        "displayName": "% Cobertura",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "unit",
+          "config": {
+            "type": "standard",
+            "unit": "percent"
+          }
+        }
+      },
+      "@pres07": {
+        "type": "number",
+        "displayName": "% Ausentismo",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "unit",
+          "config": {
+            "type": "standard",
+            "unit": "percent"
+          }
+        }
+      },
+      "@pres08": {
+        "type": "string",
+        "displayName": "Supervisor Responsable"
+      },
+      "@pres09": {
+        "type": "Select",
+        "displayName": "Estado",
+        "options": {
+          "verde": {
+            "id": "verde",
+            "name": "🟢 Verde (≥95%)",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "alerta": {
+            "id": "alerta",
+            "name": "🟡 Alerta (85–94%)",
+            "color": "#eab308",
+            "rank": "1"
+          },
+          "critico": {
+            "id": "critico",
+            "name": "🔴 Crítico (<85%)",
+            "color": "#ef4444",
+            "rank": "2"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📐"
+    }
+  }
+}

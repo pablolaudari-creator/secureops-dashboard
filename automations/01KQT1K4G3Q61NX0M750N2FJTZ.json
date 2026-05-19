@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Supervisiones → Dashboard (Auto-Sync)",
+  "trigger": {
+    "valid": false,
+    "displayName": "🛡 Nuevo archivo en carpeta Supervisiones",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "361386da-2e19-41e9-a8b7-4d49829bb03b",
+      "valid": true,
+      "displayName": "📄 Extraer contenido del informe de Supervisión",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"fileUrl\"] }}"
+        }
+      }
+    },
+    {
+      "name": "304bbe55-d91e-4e55-9db2-fa5cd904f83a",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar datos de Supervisión Operativa",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ 361386da-2e19-41e9-a8b7-4d49829bb03b[\"content\"] }}",
+          "prompt": "Eres el Analista Operativo de SPI S.A. Analizas informes de supervisión operativa de vigiladores de seguridad privada. Del archivo extraé y estructurá:\n\n1. FECHA de la supervisión (DD/MM/YYYY)\n2. HORA de inicio y fin\n3. SUPERVISOR responsable\n4. OBJETIVO/CLIENTE auditado\n5. PUNTAJE obtenido (0–100%)\n6. RESULTADO (EXCELENTE ≥90% / SATISFACTORIO 75–89% / REGULAR 60–74% / CRÍTICO <60%)\n7. VIGILADOR evaluado\n8. ITEMS del checklist evaluados (lista los que no cumplen)\n9. NO CONFORMIDADES detectadas\n10. OBSERVACIONES y recomendaciones\n11. SATISFACCIÓN DEL CLIENTE (si está disponible)\n\nSi el archivo contiene múltiples supervisiones, procesá cada una por separado. Respondé en español, formato estructurado. Si algún dato no está, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "2525746b-f17d-45ba-a409-aea14cb5a8cc",
+      "valid": false,
+      "displayName": "✅ Registrar Supervisión en proyecto Taskade",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🛡 SUPERVISIÓN — {{ trigger[\"file\"] }}\n\n{{ 304bbe55-d91e-4e55-9db2-fa5cd904f83a[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "byxXbb5F52MDMfSf"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "byxXbb5F52MDMfSf": {
+      "id": "byxXbb5F52MDMfSf",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

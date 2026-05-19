@@ -1,0 +1,48 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — 📋 Supervisión Completada: Notificación Email SGC",
+  "trigger": {
+    "valid": false,
+    "displayName": "Supervisión completada en proyecto Supervisión Operativa",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.completed",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "byxXbb5F52MDMfSf"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "b2b2b2b2-c3c3-d4d4-e5e5-f6f6f6f6f6f6",
+      "valid": false,
+      "displayName": "📧 Notificar Supervisión Completada — To: Torres SGC | CC: Dirección + Supervisores",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-gmail",
+        "pieceVersion": "1.0.0",
+        "actionName": "sendEmail",
+        "input": {
+          "cc": "vgomez@spi.com.ar, mlopez@spiseguridad.com.ar, plaudari.qhse@spiseguridad.com.ar, wrodriguez@spiseguridad.com.ar, ivan.torena@spiseguridad.com.ar",
+          "to": "itorres@spiseguridad.com.ar",
+          "from": "SPI Seguridad SGC <plaudari.qhse@spiseguridad.com.ar>",
+          "subject": "📋 Supervisión completada — {{ trigger[\"nodeText\"] }} — {{ trigger[\"completedAt\"] }}",
+          "bodyHtml": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{font-family:Arial,sans-serif;background:#f4f6f9;margin:0;padding:0}.container{max-width:600px;margin:24px auto;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.1)}.header{background:#1a2e4a;padding:20px 28px}.header h1{color:#fff;font-size:18px;margin:0}.badge{background:#6366f1;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;margin-left:12px}.body{padding:24px 28px}.title{font-size:16px;font-weight:700;color:#1a2e4a;margin-bottom:16px}table{width:100%;border-collapse:collapse;margin-bottom:20px}td{padding:10px 12px;border-bottom:1px solid #e5e7eb;font-size:14px;color:#374151}td:first-child{font-weight:600;color:#6b7280;width:38%;background:#f9fafb}.footer{background:#f4f6f9;padding:14px 28px;font-size:11px;color:#9ca3af;border-top:1px solid #e5e7eb}.alert{background:#ede9fe;border-left:4px solid #6366f1;padding:12px 16px;border-radius:0 6px 6px 0;margin-bottom:18px;font-size:14px;color:#3730a3}.info{font-size:12px;color:#6b7280;margin-top:16px;padding:12px;background:#f9fafb;border-radius:6px;border:1px solid #e5e7eb}</style></head><body><div class='container'><div class='header'><span style='display:flex;align-items:center'><h1 style='display:inline'>SPI Seguridad S.A. — SGC</h1><span class='badge'>📋 SUPERVISIÓN</span></span></div><div class='body'><div class='alert'>📋 Se completó una planilla de supervisión operativa.</div><p class='title'>Detalle de la Supervisión</p><table><tr><td>Objetivo / Sede</td><td><strong>{{ trigger[\"nodeText\"] }}</strong></td></tr><tr><td>Supervisor</td><td>{{ trigger[\"completedBy\"] }}</td></tr><tr><td>Proyecto</td><td>Supervisión Operativa — SPI S.A.</td></tr><tr><td>Fecha y hora</td><td>{{ trigger[\"completedAt\"] }}</td></tr><tr><td>ID de registro</td><td>{{ trigger[\"nodeId\"] }}</td></tr></table><div class='info'>⚠️ Si la supervisión arrojó hallazgos u observaciones, asegurarse de que las acciones correctivas estén registradas en el sistema SGC antes de las 48 hs. Deadline general auditoría ISO: <strong>30/04/2026</strong>.</div><p style='font-size:13px;color:#6b7280;margin-top:16px;'>Este correo es generado automáticamente por el sistema SGC de SPI S.A. (ISO 9001:2015).</p></div><div class='footer'>SPI Seguridad S.A. · Sistema de Gestión de Calidad · Automatización SGC v2.0 · 2026</div></div></body></html>"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "byxXbb5F52MDMfSf": {
+      "id": "byxXbb5F52MDMfSf",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

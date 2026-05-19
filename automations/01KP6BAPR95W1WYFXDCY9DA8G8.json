@@ -1,0 +1,63 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — 👥 Presentismo Registrado: Notificación Email SGC",
+  "trigger": {
+    "valid": false,
+    "displayName": "Registro de presentismo completado",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.completed",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "3eqE71Eu9qwKihYD"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "d532a050-ff14-4979-8538-87eb6a5de2b8",
+      "valid": true,
+      "displayName": "🤖 IA — Calcular métricas de presentismo y cobertura",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Tarea completada en Presentismo: {{ trigger[\"nodeText\"] }} por {{ trigger[\"completedBy\"] }} el {{ trigger[\"completedAt\"] }}. Calculá las métricas del mes actual.",
+          "prompt": "Eres el Analista de RRHH de SPI S.A. Se completó un registro de presentismo.\n\nDATOS DEL SISTEMA (Mes actual — Mayo 2026):\n- Sedes zona W. Rodríguez: Racing Club (6/6 presentes), Espinosa 90 (2/3), T. Padilla (2/2), Master Bus (3/3), GI Tilcara (2/2), HPCC Bunker (3/4)\n- Sedes zona I. Torena: Konig U720 (3/3), Konig M1060 (3/3), Konig La Bernalesa (4/4), Konig U552 (2/2), ATILRA (2/3), La Taquara (2/2)\n- Total planificados: 37 guardias · Total presentes: 34 · Ausencias: 3 (Espinosa, HPCC, ATILRA) · Tardanzas: 1 (Master Bus)\n- Sede con mayor ausentismo: ATILRA — 33% (meta: ≤5%)\n- Supervisor crítico: I. Torena\n\nCALCULÁ y respondé SOLO este JSON (sin markdown):\n{\n  \"mes\": \"Mayo\",\n  \"total_planificados\": 37,\n  \"total_presentes\": 34,\n  \"total_ausencias\": 3,\n  \"total_tardanzas\": 1,\n  \"pct_cobertura\": 91.9,\n  \"pct_ausentismo\": 8.1,\n  \"estado_semaforo\": \"alerta\",\n  \"sede_critica\": \"ATILRA — Independencia 3332 + sedes\",\n  \"supervisor_critico\": \"I. Torena\",\n  \"alerta\": \"Ausentismo 8.1% supera meta ≤5%. 3 ausencias registradas en Espinosa, HPCC y ATILRA.\"\n}"
+        }
+      }
+    },
+    {
+      "name": "259671a6-acfc-4d44-98ba-4e23203df4de",
+      "valid": false,
+      "displayName": "📧 Notificar Presentismo + Métricas IA — To: Torres SGC | CC: Dirección",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-gmail",
+        "pieceVersion": "1.0.0",
+        "actionName": "sendEmail",
+        "input": {
+          "cc": "plaudari.qhse@spiseguridad.com.ar",
+          "to": "itorres@spiseguridad.com.ar",
+          "from": "SPI Seguridad SGC <plaudari.qhse@spiseguridad.com.ar>",
+          "subject": "👥 Presentismo registrado — {{ trigger[\"nodeText\"] }} — {{ trigger[\"completedAt\"] }}",
+          "bodyHtml": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{font-family:Arial,sans-serif;background:#f4f6f9;margin:0;padding:0}.container{max-width:600px;margin:24px auto;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.1)}.header{background:#1a2e4a;padding:20px 28px}.header h1{color:#fff;font-size:18px;margin:0}.badge{background:#8b5cf6;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;margin-left:12px}.body{padding:24px 28px}.title{font-size:16px;font-weight:700;color:#1a2e4a;margin-bottom:16px}table{width:100%;border-collapse:collapse;margin-bottom:20px}td{padding:10px 12px;border-bottom:1px solid #e5e7eb;font-size:14px;color:#374151}td:first-child{font-weight:600;color:#6b7280;width:38%;background:#f9fafb}.footer{background:#f4f6f9;padding:14px 28px;font-size:11px;color:#9ca3af;border-top:1px solid #e5e7eb}.alert{background:#f3e8ff;border-left:4px solid #8b5cf6;padding:12px 16px;border-radius:0 6px 6px 0;margin-bottom:18px;font-size:14px;color:#5b21b6}.ia-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px;margin-bottom:20px;font-size:13px;color:#166534;white-space:pre-wrap;font-family:monospace}.info{font-size:12px;color:#6b7280;margin-top:16px;padding:12px;background:#fef3c7;border-radius:6px;border:1px solid #fde68a}</style></head><body><div class='container'><div class='header'><span style='display:flex;align-items:center'><h1 style='display:inline'>SPI Seguridad S.A. — SGC</h1><span class='badge'>👥 PRESENTISMO</span></span></div><div class='body'><div class='alert'>👥 Se completó el registro de presentismo/asistencia del turno.</div><p class='title'>Detalle del Registro</p><table><tr><td>Zona / Puesto</td><td><strong>{{ trigger[\"nodeText\"] }}</strong></td></tr><tr><td>Responsable</td><td>{{ trigger[\"completedBy\"] }}</td></tr><tr><td>Proyecto</td><td>Control de Presentismo — SPI S.A.</td></tr><tr><td>Fecha y hora</td><td>{{ trigger[\"completedAt\"] }}</td></tr><tr><td>ID de registro</td><td>{{ trigger[\"nodeId\"] }}</td></tr></table><p class='title'>📊 Análisis IA — Métricas del Mes</p><div class='ia-box'>{{ d532a050-ff14-4979-8538-87eb6a5de2b8[\"result\"] }}</div><div class='info'>⚠️ Ausentismo acumulado 2026: <strong>15.3%</strong> (meta: &lt;10%). Riesgo asociado: <strong>RSG-001 (P×I = 20 — CRÍTICO)</strong>. Si este registro refleja ausencias, reportarlas como Novedad en el módulo de Incidentes del SGC.</div><p style='font-size:13px;color:#6b7280;margin-top:16px;'>Este correo es generado automáticamente por el sistema SGC de SPI S.A. (ISO 9001:2015).</p></div><div class='footer'>SPI Seguridad S.A. · Sistema de Gestión de Calidad · Automatización SGC v2.0 · 2026</div></div></body></html>"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "3eqE71Eu9qwKihYD": {
+      "id": "3eqE71Eu9qwKihYD",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": "2",
+  "flowTitle": "SPI Drive — Presentismo → Dashboard (Auto-Sync)",
+  "trigger": {
+    "valid": false,
+    "displayName": "👤 Nuevo archivo en carpeta Presentismo",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-piece-google-drive",
+      "pieceVersion": "1.0.0",
+      "triggerName": "new_fileV2",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "1d3f7baf-34d9-4c73-a508-1e62d4f2fe9d",
+      "valid": true,
+      "displayName": "📄 Extraer contenido del CSV de Presentismo",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "https://drive.google.com/uc?export=download&id={{ trigger['id'] }}"
+        }
+      }
+    },
+    {
+      "name": "d55518e8-5af8-44bb-b108-f903f3824da5",
+      "valid": true,
+      "displayName": "🤖 IA — Estructurar registros de Presentismo",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Archivo: {{ trigger[\"file\"] }}\n\nContenido:\n{{ 1d3f7baf-34d9-4c73-a508-1e62d4f2fe9d[\"content\"] }}",
+          "prompt": "Eres el Analista de RRHH de SPI S.A. Analizas planillas de control de presentismo y asistencia del personal de seguridad privada. Del archivo CSV o planilla extraé y estructurá para CADA REGISTRO:\n\n1. FECHA (DD/MM/YYYY)\n2. NOMBRE Y APELLIDO del agente\n3. TURNO (Mañana/Tarde/Noche)\n4. OBJETIVO/SEDE asignada\n5. ESTADO (Presente / Ausente / Tardanza)\n6. HORA DE INGRESO (si está disponible)\n7. OBSERVACIONES\n\nLuego calculá un RESUMEN:\n- Total registros\n- % Presentes\n- % Ausentes  \n- % Tardanzas\n- Agentes con más ausencias\n- Alertas de cobertura (sedes con <80% presencia)\n\nRespondé en español, formato estructurado. Si algún dato no está, indicá '—'."
+        }
+      }
+    },
+    {
+      "name": "d5e5c9f4-da88-4588-828d-175ae76e392e",
+      "valid": false,
+      "displayName": "✅ Registrar Presentismo en proyecto Taskade",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "👤 PRESENTISMO — {{ trigger[\"file\"] }}\n\n{{ d55518e8-5af8-44bb-b108-f903f3824da5[\"result\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "3eqE71Eu9qwKihYD"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "3eqE71Eu9qwKihYD": {
+      "id": "3eqE71Eu9qwKihYD",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — KPIs Riesgos Semanales (Lunes 8am)",
+  "trigger": {
+    "valid": true,
+    "displayName": "🗓 Cada lunes a las 8:00 AM (América/Buenos Aires)",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Buenos_Aires",
+        "dayOfWeek": "Monday",
+        "timeOfDay": "8:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "kpi-ai-0001-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "🤖 IA — Calcular KPIs de Riesgos al {{ trigger[\"triggerTime\"] }}",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Calculá los KPIs actuales de la Matriz de Riesgos MAR-SGC-001 de SPI S.A. al {{ trigger[\"triggerTime\"] }}. Completá todos los valores del JSON exactamente como se indica.",
+          "prompt": "Eres el Analista SGC de SPI S.A. Cada lunes generás el reporte semanal de KPIs de la Matriz de Riesgos MAR-SGC-001 (ISO 9001:2015, cláusula 6.1).\n\nDATOS DE LA MATRIZ AL {{ trigger[\"triggerTime\"] }} — RIESGOS ACTUALIZADOS:\n\nCRÍTICOS (P×I ≥ 16) — 8 riesgos:\nRSG-001 (P4×I5=20) Vigilador ausente → PARCIAL → En curso\nRSG-004 (P5×I5=25) NC sin AC cerrada → PARCIAL → En curso\nRSG-008 (P4×I4=16) Objetivos sin KPIs → PARCIAL → En curso\nRSG-011 (P4×I5=20) Auditoría interna no ejecutada → PARCIAL → En curso\nRSG-016 (P4×I5=20) Pérdida cliente SLA → PARCIAL → En curso\nRSG-017 (P3×I5=15) Robo/intrusión → PARCIAL → Abierto\nRSG-018 (P4×I4=16) Supervisor sobrecargado → PARCIAL → Abierto\nRSG-031 (P4×I4=16) Ausentismo alza → NO → Abierto\n\nALTOS (P×I 9–15) — 16 riesgos:\nRSG-002 (12) Ronda sin QR → SÍ → En curso\nRSG-003 (12) Fallo CCTV → PARCIAL → Abierto\nRSG-005 (15) Sin capacitación → PARCIAL → En curso\nRSG-006 (12) Insatisfacción cliente → SÍ → En curso\nRSG-007 (12) Proveedor sin eval → NO → Abierto\nRSG-009 (10) Incidente sin protocolo → SÍ → En curso\nRSG-010 (12) Rev. dirección sin evidencia → PARCIAL → En curso\nRSG-012 (9) Alta rotación → PARCIAL → Abierto\nRSG-013 (9) Doc desactualizada → PARCIAL → En curso\nRSG-014 (10) Incumplimiento legal → SÍ → En curso\nRSG-015 (9) Comunicación deficiente → PARCIAL → En curso\nRSG-020 (12) Equipamiento obsoleto → NO → Abierto\nRSG-021 (9) Incidentes incompletos → PARCIAL → En curso\nRSG-024 (9) Sin KPIs supervisores → PARCIAL → En curso\nRSG-025 (9) Demora respuesta cliente → PARCIAL → En curso\nRSG-032 (9) Datos históricos sin respaldo → NO → Abierto\n\nMEDIOS (P×I 4–8) — 4 riesgos:\nRSG-019 (8) Datos desincronizados → SÍ → En curso\nRSG-022 (8) Sin proc. emergencias → NO → Abierto\nRSG-023 (8) Sin backups → NO → Abierto\nRSG-026 (8) Capacitación sin eficacia → PARCIAL → En curso\n\nBAJOS (P×I 1–4) — 4 riesgos:\nRSG-027 (4) Clima extremo → SÍ → Aceptado\nRSG-028 (4) Credenciales → SÍ → Aceptado\nRSG-029 (2) Duplicidad asistencia → SÍ → CERRADO ✅\nRSG-030 (4) QR sin señalización → PARCIAL → En curso\n\nINDICADORES OPERATIVOS:\n- Ausentismo acumulado 2026: 15.3% (418 registros, 64 eventos)\n- NC pendientes de cierre: 86 (prom. 12.3/servicio)\n- Tasa QR: <60% (objetivo ≥90%)\n- Auditoría ENG: 30/04/2026\n- Riesgo máximo: RSG-004 (P×I=25)\n- Supervisor sobrecargado: W. Rodríguez (10+ objetivos)\n\nCALCULÁ exactamente y respondé SOLO con este JSON (sin texto adicional, sin markdown):\n{\n  \"semana\": \"\",\n  \"fecha_calculo\": \"\",\n  \"total_riesgos\": 32,\n  \"criticos\": 8,\n  \"altos\": 16,\n  \"medios\": 4,\n  \"bajos\": 4,\n  \"controles_implementados\": 0,\n  \"controles_parciales\": 0,\n  \"sin_control\": 0,\n  \"pct_cumplimiento_controles\": 0.0,\n  \"abiertos\": 0,\n  \"en_curso\": 0,\n  \"cerrados\": 0,\n  \"aceptados\": 0,\n  \"nivel_global\": \"CRITICO\",\n  \"nc_pendientes\": 86,\n  \"ausentismo_pct\": 15.3,\n  \"tasa_qr_pct\": 0,\n  \"dias_auditoria_eng\": 0,\n  \"riesgo_maximo\": \"RSG-004 (P5xI5=25)\",\n  \"riesgos_sin_control_criticos\": [],\n  \"proximos_vencimientos_7dias\": [],\n  \"resumen_ejecutivo\": \"\",\n  \"alerta_principal\": \"\"\n}"
+        }
+      }
+    },
+    {
+      "name": "7d53258b-8065-41b4-8569-b8b778408325",
+      "valid": false,
+      "displayName": "🔍 Buscar KPI de esta semana (anti-duplicado)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "7xwhpRdgsRdwdBhK"
+          },
+          "rowsToReturn": "first_matching_row",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "dcf64b92-6ec5-4623-8d36-301901fd1b98",
+      "valid": true,
+      "displayName": "¿Ya existe KPI de esta semana?",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "f3b8fd53-d3ce-4802-bd49-76f4ce612b9a",
+          "valid": true,
+          "displayName": "✅ No existe — Crear KPI",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_is_empty",
+                        "id": "77e5840d-57ed-4cd4-b9a0-a64ff18f46fe",
+                        "data": "{{ 7d53258b-8065-41b4-8569-b8b778408325[\"nodeId\"] }}",
+                        "comparator": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "f750bf1f-3d63-42fd-8936-5e8c0586507b",
+              "valid": false,
+              "displayName": "✅ Registrar KPI semanal en proyecto KPIs Operativos SGC",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "1.0.0",
+                "actionName": "task.create",
+                "input": {
+                  "fields": {
+                    "@kpi01": {
+                      "data": {
+                        "value": "Matriz de Riesgos MAR-SGC-001 — Cumplimiento de controles y nivel global"
+                      },
+                      "rank": "0",
+                      "fieldId": "@kpi01"
+                    },
+                    "@kpi02": {
+                      "data": {
+                        "value": "80"
+                      },
+                      "rank": "1",
+                      "fieldId": "@kpi02"
+                    },
+                    "@kpi03": {
+                      "data": {
+                        "value": "44"
+                      },
+                      "rank": "2",
+                      "fieldId": "@kpi03"
+                    },
+                    "@kpi04": {
+                      "data": {
+                        "value": "rojo"
+                      },
+                      "rank": "3",
+                      "fieldId": "@kpi04"
+                    },
+                    "@kpi05": {
+                      "data": {
+                        "value": "M. I. Torres / Dirección"
+                      },
+                      "rank": "4",
+                      "fieldId": "@kpi05"
+                    },
+                    "@kpi06": {
+                      "data": {
+                        "value": "{{ trigger[\"triggerTime\"] }}"
+                      },
+                      "rank": "5",
+                      "fieldId": "@kpi06"
+                    },
+                    "@kpi07": {
+                      "data": {
+                        "value": "Reporte automático semanal. Nivel global CRÍTICO. 8 riesgos críticos · 16 altos · NC pendientes: 86 · Ausentismo: 15.3% · Tasa QR: <60%."
+                      },
+                      "rank": "6",
+                      "fieldId": "@kpi07"
+                    }
+                  },
+                  "content": "📊 KPI RIESGOS SEMANAL — {{ trigger[\"triggerTime\"] }}\nMatriz MAR-SGC-001 · ISO 9001:2015 · 32 riesgos · Nivel global: CRÍTICO\n\n{{ kpi-ai-0001-0000-0000-000000000001[\"result\"] }}",
+                  "position": "afterbegin",
+                  "projectId": {
+                    "type": "flow-template-variable-input-type",
+                    "id": "7xwhpRdgsRdwdBhK"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "f3b8fd53-d3ce-4802-bd49-76f4ce612b9b",
+          "valid": true,
+          "displayName": "⏭ Ya existe — Saltar (sin duplicar)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": []
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "7xwhpRdgsRdwdBhK": {
+      "id": "7xwhpRdgsRdwdBhK",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

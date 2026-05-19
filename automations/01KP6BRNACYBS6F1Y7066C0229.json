@@ -1,0 +1,53 @@
+{
+  "version": "2",
+  "flowTitle": "SPI — 📊 Resumen Semanal KPIs SGC (Viernes 17hs)",
+  "trigger": {
+    "valid": true,
+    "displayName": "Todos los viernes a las 17:00 hs (Argentina)",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Buenos_Aires",
+        "dayOfWeek": "Friday",
+        "timeOfDay": "5:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "ai-kpi-001-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "🤖 Análisis IA — Resumen ejecutivo KPIs semana",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "ESTADO KPIs SGC — SPI S.A. — Semana del {{ trigger[\"triggerTime\"] }}:\n\n1. CONTROL DE RONDAS QR: Real 87% | Meta 95% | HPCC Sector B crítico (58%) | Racing 98% | Konig 100% | ATILRA 90% | Avellaneda 91%\n2. CCTV & ALARMAS: Real 96% | Meta 98% | HPCC 2 cámaras en reparación (ETA 17/04) | Resto 100%\n3. NO CONFORMIDADES: 4 abiertas (NC-001 HPCC en curso, NC-002 Avellaneda cerrando, NC-003 módulos reprogramados, NC-005 ATILRA nueva) | NC-004 verificada ✅ | Cierre en plazo: 60%\n4. CAPACITACIONES: 2/6 módulos completados (M1 95%, M2 89%) | M3-M5 programados Q2 | Ejecución: 67% vs meta 90%\n5. INCIDENTES: 4 registrados | 3 cerrados | 1 investigando (INC-004 ATILRA) | Tasa resolución: 80% ✅\n6. SATISFACCIÓN CLIENTE: 91% encuesta Q1 ✅ | Meta: 85%",
+          "prompt": "Eres el Asesor SGC de SPI S.A. (ISO 9001:2015). Analiza el estado semanal de los KPIs operativos y genera: 1) Un diagnóstico ejecutivo en 3 líneas, 2) Los 3 puntos de atención más urgentes con acción recomendada, 3) Un reconocimiento a lo que está funcionando bien. Tono directo, operativo, en español. Máximo 200 palabras."
+        }
+      }
+    },
+    {
+      "name": "email-kpi-003-0000-0000-000000000003",
+      "valid": false,
+      "displayName": "📧 Enviar Resumen Semanal KPIs — Víctor Gómez | CC: Martín López",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-gmail",
+        "pieceVersion": "1.0.0",
+        "actionName": "sendEmail",
+        "input": {
+          "cc": "mlopez@spiseguridad.com.ar",
+          "to": "vgomez@spi.com.ar",
+          "subject": "📊 Resumen Semanal KPIs SGC — SPI S.A. — {{ trigger[\"triggerTime\"] }}",
+          "bodyHtml": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Segoe UI',Arial,sans-serif;background:#eef1f6;padding:24px 0}.wrap{max-width:640px;margin:0 auto}.header{background:linear-gradient(135deg,#0f1f3d 0%,#1a3a6b 100%);padding:28px 32px;border-radius:12px 12px 0 0}.logo{color:#fff;font-size:20px;font-weight:700;letter-spacing:-.3px}.badge{background:rgba(255,255,255,.15);color:#fff;font-size:11px;font-weight:600;padding:4px 12px;border-radius:20px;border:1px solid rgba(255,255,255,.25);margin-left:12px}.header-sub{color:#94b8e8;font-size:13px;margin-top:6px}.body{background:#fff;padding:28px 32px}.section-title{font-size:11px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.8px;margin:20px 0 12px;padding-bottom:6px;border-bottom:2px solid #f3f4f6}.kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}.kpi-card{border-radius:8px;padding:14px}.kpi-card.verde{background:#f0fdf4;border:1px solid #bbf7d0}.kpi-card.amarillo{background:#fefce8;border:1px solid #fde68a}.kpi-card.rojo{background:#fef2f2;border:1px solid #fecaca}.kpi-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}.kpi-name{font-size:11px;font-weight:600;color:#374151;line-height:1.3}.sem{font-size:16px}.kpi-val{font-size:24px;font-weight:800;line-height:1}.kpi-card.verde .kpi-val{color:#16a34a}.kpi-card.amarillo .kpi-val{color:#ca8a04}.kpi-card.rojo .kpi-val{color:#dc2626}.kpi-meta{font-size:10px;color:#9ca3af;margin-top:2px}.kpi-note{font-size:10px;color:#6b7280;margin-top:6px;padding-top:6px;border-top:1px solid rgba(0,0,0,.07);line-height:1.4}.ai-box{background:#f5f3ff;border:1px solid #c4b5fd;border-radius:8px;padding:16px;margin-bottom:20px}.ai-label{font-size:11px;font-weight:700;color:#5b21b6;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}.ai-text{font-size:13px;color:#374151;line-height:1.6}.nc-t{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:20px}.nc-t th{background:#f9fafb;padding:8px 10px;text-align:left;font-size:10px;font-weight:700;color:#6b7280;text-transform:uppercase;border-bottom:2px solid #e5e7eb}.nc-t td{padding:8px 10px;border-bottom:1px solid #f3f4f6;color:#374151}.nc-t tr:last-child td{border:none}.pill{display:inline-block;padding:2px 7px;border-radius:8px;font-size:10px;font-weight:600}.p-open{background:#fee2e2;color:#dc2626}.p-curso{background:#fef3c7;color:#d97706}.p-ok{background:#d1fae5;color:#059669}.footer{background:#f9fafb;padding:14px 32px;border-radius:0 0 12px 12px;border-top:1px solid #e5e7eb;font-size:11px;color:#9ca3af;display:flex;justify-content:space-between;align-items:center}.footer a{color:#4f46e5;font-weight:600;text-decoration:none}</style></head><body><div class='wrap'><div class='header'><div style='display:flex;align-items:center'><span class='logo'>SPI Seguridad S.A.</span><span class='badge'>📊 KPIs SEMANA</span></div><div class='header-sub'>SGC ISO 9001:2015 &nbsp;·&nbsp; Reporte automático viernes 17:00 hs &nbsp;·&nbsp; {{ trigger[\"triggerTime\"] }}</div></div><div class='body'><div class='section-title'>Dashboard KPIs — Estado actual</div><div class='kpi-grid'><div class='kpi-card amarillo'><div class='kpi-top'><span class='kpi-name'>Rondas QR</span><span class='sem'>🟡</span></div><div class='kpi-val'>87%</div><div class='kpi-meta'>Meta: 95%</div><div class='kpi-note'>HPCC Sector B: 58% ⚠️ | Konig 100% ✅ | Racing 98% ✅</div></div><div class='kpi-card amarillo'><div class='kpi-top'><span class='kpi-name'>CCTV &amp; Alarmas</span><span class='sem'>🟡</span></div><div class='kpi-val'>96%</div><div class='kpi-meta'>Meta: 98%</div><div class='kpi-note'>HPCC 2 cámaras en reparación · ETA 17/04 · Avellaneda OK ✅</div></div><div class='kpi-card amarillo'><div class='kpi-top'><span class='kpi-name'>Cierre NC en plazo</span><span class='sem'>🟡</span></div><div class='kpi-val'>75%</div><div class='kpi-meta'>Meta: 100%</div><div class='kpi-note'>5 NC · 1 verificada ✅ · 2 en curso · 1 nueva (ATILRA) 🔴</div></div><div class='kpi-card amarillo'><div class='kpi-top'><span class='kpi-name'>Capacitaciones</span><span class='sem'>🟡</span></div><div class='kpi-val'>67%</div><div class='kpi-meta'>Meta: 90%</div><div class='kpi-note'>M1 ✅ M2 ✅ completados · M3 25/04 · M4 09/05 · M5 23/05</div></div><div class='kpi-card verde'><div class='kpi-top'><span class='kpi-name'>Satisfacción cliente</span><span class='sem'>🟢</span></div><div class='kpi-val'>91%</div><div class='kpi-meta'>Meta: 85%</div><div class='kpi-note'>Encuesta Q1 ✅ · Konig 97% · Racing 94% · ATILRA 91%</div></div><div class='kpi-card verde'><div class='kpi-top'><span class='kpi-name'>Incidentes</span><span class='sem'>🟢</span></div><div class='kpi-val'>75%</div><div class='kpi-meta'>Tasa resolución</div><div class='kpi-note'>4 registrados · 3 cerrados ✅ · 1 investigando (ATILRA QR)</div></div></div><div class='section-title'>Análisis IA — Diagnóstico ejecutivo</div><div class='ai-box'><div class='ai-label'>🤖 SGC Advisor — Resumen semana</div><div class='ai-text'>{{ ai-kpi-001-0000-0000-000000000001[\"result\"] }}</div></div><div class='section-title'>No Conformidades activas</div><table class='nc-t'><thead><tr><th>Código</th><th>Descripción</th><th>Sede</th><th>Estado</th><th>Deadline</th></tr></thead><tbody><tr><td><b>NC-001</b></td><td>Rondas QR incompletas Sector B</td><td>HPCC</td><td><span class='pill p-curso'>🟡 En Curso</span></td><td>17/04</td></tr><tr><td><b>NC-002</b></td><td>Cámaras / Panel alarma</td><td>Avellaneda</td><td><span class='pill p-curso'>🟡 En Curso</span></td><td>17/04</td></tr><tr><td><b>NC-003</b></td><td>Módulos cap. Q1 sin ejecutar</td><td>Todas</td><td><span class='pill p-curso'>🟡 En Curso</span></td><td>31/05</td></tr><tr><td><b>NC-004</b></td><td>Procedimiento rondas</td><td>Todas</td><td><span class='pill p-ok'>✅ Verificada</span></td><td>—</td></tr><tr><td><b>NC-005</b></td><td>Señal QR zona norte</td><td>ATILRA</td><td><span class='pill p-open'>🔴 Abierta</span></td><td>20/04</td></tr></tbody></table><p style='font-size:11px;color:#9ca3af;text-align:center;padding-bottom:4px;'>Dashboard completo: <a href='https://secureops-dashboard-7890.taskade.app' style='color:#4f46e5;font-weight:600;'>secureops-dashboard-7890.taskade.app</a></p></div><div class='footer'><span>SPI Seguridad S.A. · SGC ISO 9001:2015 · Viernes 17:00 hs · Buenos Aires</span><a href='https://secureops-dashboard-7890.taskade.app'>Ver Dashboard →</a></div></div></body></html>"
+        }
+      }
+    }
+  ]
+}

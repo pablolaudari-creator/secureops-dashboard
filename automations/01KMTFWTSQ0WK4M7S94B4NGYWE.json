@@ -1,0 +1,59 @@
+{
+  "version": "2",
+  "flowTitle": "Alerta NC — SPI S.A. SGC",
+  "trigger": {
+    "valid": false,
+    "displayName": "Nueva No Conformidad Registrada",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.added",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "valid": true,
+      "displayName": "Analizar Urgencia NC con IA",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Nueva NC: {{ trigger[\"nodeText\"] }} | Proyecto: {{ trigger[\"projectId\"] }}",
+          "prompt": "Eres el Asesor SGC de SPI S.A. (ISO 9001:2015). Se ha registrado una nueva No Conformidad. Analiza el texto y determina: 1) Nivel de urgencia (ALTA/MEDIA/BAJA), 2) Impacto potencial en las operaciones, 3) Recomendación de acción inmediata. El deadline global para cierre de NC es el 15/04/2026. Responde en español, de forma concisa y operativa."
+        }
+      }
+    },
+    {
+      "name": "nc-out01-0000-0000-0000-000000000001",
+      "valid": false,
+      "displayName": "✅ Registrar análisis de urgencia como subtarea NC",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "🤖 ANÁLISIS NC — {{ trigger[\"nodeText\"] }}\n\n{{ a1b2c3d4-e5f6-7890-abcd-ef1234567890[\"result\"] }}\n\nFuente: Alerta automática SGC | Proyecto: {{ trigger[\"projectId\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jcwLo1K98HMy63zC"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jcwLo1K98HMy63zC": {
+      "id": "jcwLo1K98HMy63zC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

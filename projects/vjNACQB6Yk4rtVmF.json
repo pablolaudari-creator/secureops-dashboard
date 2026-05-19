@@ -1,0 +1,1894 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000001-0000-0000-0000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "SPI — Clientes & Objetivos"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a0000005-0000-0000-0000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "L"
+                },
+                {
+                  "insert": "ABORATORIOS KONIG — U",
+                  "attributes": {}
+                },
+                {
+                  "insert": "r"
+                },
+                {
+                  "insert": "ugu",
+                  "attributes": {}
+                },
+                {
+                  "insert": "a"
+                },
+                {
+                  "insert": "y",
+                  "attributes": {}
+                },
+                {
+                  "insert": " "
+                },
+                {
+                  "insert": "720 P",
+                  "attributes": {}
+                },
+                {
+                  "insert": "i"
+                },
+                {
+                  "insert": "ñeyro",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Uruguay N° 720 - Piñeyro"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000006-0000-0000-0000-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ATILRA "
+                },
+                {
+                  "insert": "— Sede ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "Y"
+                },
+                {
+                  "insert": "rigoyen",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli08": "Supervisor asignado",
+              "@cli01": "Hipólito Yrigoyen N° 4060 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000007-0000-0000-0000-000000000007",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ATILRA "
+                },
+                {
+                  "insert": "— Sede ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "I"
+                },
+                {
+                  "insert": "ndependencia",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli08": "Supervisor asignado",
+              "@cli01": "Independencia N° 3332 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000008-0000-0000-0000-000000000008",
+            "text": {
+              "ops": [
+                {
+                  "insert": "MASTER"
+                },
+                {
+                  "insert": " ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "BUS"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-custodia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli10": "Custodia de transporte",
+              "@cli01": "Colectora Sur - Ruta 9 Km 88.500 - Zárate"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000013-0000-0000-0000-000000000013",
+            "text": {
+              "ops": [
+                {
+                  "insert": "R"
+                },
+                {
+                  "insert": "ACING",
+                  "attributes": {}
+                },
+                {
+                  "insert": " C"
+                },
+                {
+                  "insert": "LUB — Sede",
+                  "attributes": {}
+                },
+                {
+                  "insert": " Villa del Parque"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Nogoyá N° 3045 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000015-0000-0000-0000-000000000015",
+            "text": {
+              "ops": [
+                {
+                  "insert": "G.I. ESTUDIO SA — ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "Predio Tilcara"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Tilcara N° 2731 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000017-0000-0000-0000-000000000017",
+            "text": {
+              "ops": [
+                {
+                  "insert": "G.I. ESTUDIO SA — ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "Predio "
+                },
+                {
+                  "insert": "Ave",
+                  "attributes": {}
+                },
+                {
+                  "insert": "ll"
+                },
+                {
+                  "insert": "aned",
+                  "attributes": {}
+                },
+                {
+                  "insert": "a"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Dean Funes N° 90 / Espinosa 201 - Avellaneda"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000018-0000-0000-0000-000000000018",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ENTREGAR SA — Logística ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "Predio Avellaneda"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-custodia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Espinosa N° 201 - Avellaneda"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000021-0000-0000-0000-000000000021",
+            "text": {
+              "ops": [
+                {
+                  "insert": "COMP. ARG",
+                  "attributes": {}
+                },
+                {
+                  "insert": "E"
+                },
+                {
+                  "insert": "N",
+                  "attributes": {}
+                },
+                {
+                  "insert": "TI"
+                },
+                {
+                  "insert": "NA DE DIS",
+                  "attributes": {}
+                },
+                {
+                  "insert": "E"
+                },
+                {
+                  "insert": "ÑO S",
+                  "attributes": {}
+                },
+                {
+                  "insert": "A "
+                },
+                {
+                  "insert": "(",
+                  "attributes": {}
+                },
+                {
+                  "insert": "E"
+                },
+                {
+                  "insert": "tiqueta Negra)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-evento"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Dardo Rocha N° 1366 - Martínez"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000022-0000-0000-0000-000000000022",
+            "text": {
+              "ops": [
+                {
+                  "insert": "COOP. DE SCIOS. PÚBLICOS ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "HIG"
+                },
+                {
+                  "insert": "H",
+                  "attributes": {}
+                },
+                {
+                  "insert": "LAND PARK"
+                },
+                {
+                  "insert": " Ltda.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Los Jazmines y Las Campanillas - Del Viso"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000023-0000-0000-0000-000000000023",
+            "text": {
+              "ops": [
+                {
+                  "insert": "CONS"
+                },
+                {
+                  "insert": "ORCIO DE PROPIETARIOS",
+                  "attributes": {}
+                },
+                {
+                  "insert": " CORONEL DIAZ"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Coronel Díaz N° 2241 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000024-0000-0000-0000-000000000024",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LOG J.B. ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "LUPARIA"
+                },
+                {
+                  "insert": " SRL",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-rondas"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Maquinista Carregal - Munro"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000036-0000-0000-0000-000000000036",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Club de C",
+                  "attributes": {}
+                },
+                {
+                  "insert": "a"
+                },
+                {
+                  "insert": "mpo LA",
+                  "attributes": {}
+                },
+                {
+                  "insert": " T"
+                },
+                {
+                  "insert": "AQUARA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Ruta Pcial. 205 N° 56.600 - Cañuelas"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000044-0000-0000-0000-000000000044",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LABORATORIOS ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "BINKA"
+                },
+                {
+                  "insert": " SA —",
+                  "attributes": {}
+                },
+                {
+                  "insert": " M"
+                },
+                {
+                  "insert": "éxico ",
+                  "attributes": {}
+                },
+                {
+                  "insert": "1060"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "México N° 1060 - Piñeyro"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a0000048-0000-0000-0000-000000000048",
+            "text": {
+              "ops": [
+                {
+                  "insert": "— NUEVO CLIENTE (completar)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-prospecto"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "AMPIL",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Hipólito Yrigoyen N° 4060 - CABA"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000002-0000-0000-0000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ATILRA — Sede Morón",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Ing. Boatti N° 184 - Morón"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000003-0000-0000-0000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TRANSPORTES PADILLA SA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-custodia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Dean Funes N° 95 - Avellaneda"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000004-0000-0000-0000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LABORATORIOS KONIG — Parque Industrial Chivilcoy",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Parque Industrial Chivilcoy"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000005-0000-0000-0000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LABORATORIOS KONIG — La Bernalesa",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Martín Rodríguez N° 199 - Quilmes"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b0000006-0000-0000-0000-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LABORATORIOS BINKA SA — Uruguay 552",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cli05": {
+                "type": "Select",
+                "optionId": "opt-vigilancia"
+              },
+              "@cli06": {
+                "type": "Select",
+                "optionId": "opt-activo"
+              },
+              "@cli01": "Uruguay N° 552 - Piñeyro"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV"
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk"
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV"
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk"
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV"
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk"
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z"
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV"
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk"
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs"
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw"
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy"
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz"
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV"
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk"
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cli01": {
+            "id": "/attributes/@cli01",
+            "fieldPath": "/attributes/@cli01",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cli02": {
+            "id": "/attributes/@cli02",
+            "fieldPath": "/attributes/@cli02",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cli03": {
+            "id": "/attributes/@cli03",
+            "fieldPath": "/attributes/@cli03",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cli04": {
+            "id": "/attributes/@cli04",
+            "fieldPath": "/attributes/@cli04",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cli05": {
+            "id": "/attributes/@cli05",
+            "fieldPath": "/attributes/@cli05",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cli06": {
+            "id": "/attributes/@cli06",
+            "fieldPath": "/attributes/@cli06",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cli07": {
+            "id": "/attributes/@cli07",
+            "fieldPath": "/attributes/@cli07",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cli08": {
+            "id": "/attributes/@cli08",
+            "fieldPath": "/attributes/@cli08",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@cli09": {
+            "id": "/attributes/@cli09",
+            "fieldPath": "/attributes/@cli09",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@cli10": {
+            "id": "/attributes/@cli10",
+            "fieldPath": "/attributes/@cli10",
+            "rank": "zzs",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cli01": {
+        "type": "string",
+        "displayName": "Dirección / Ubicación"
+      },
+      "@cli02": {
+        "type": "string",
+        "displayName": "Contacto"
+      },
+      "@cli03": {
+        "type": "string",
+        "displayName": "Teléfono"
+      },
+      "@cli04": {
+        "type": "string",
+        "displayName": "Email"
+      },
+      "@cli05": {
+        "type": "Select",
+        "displayName": "Tipo de Servicio",
+        "options": {
+          "opt-custodia": {
+            "id": "opt-custodia",
+            "name": "Custodia",
+            "color": "#3b82f6",
+            "rank": "0"
+          },
+          "opt-vigilancia": {
+            "id": "opt-vigilancia",
+            "name": "Vigilancia Fija",
+            "color": "#6366f1",
+            "rank": "1"
+          },
+          "opt-rondas": {
+            "id": "opt-rondas",
+            "name": "Rondas",
+            "color": "#10b981",
+            "rank": "2"
+          },
+          "opt-monitoreo": {
+            "id": "opt-monitoreo",
+            "name": "Monitoreo CCTV",
+            "color": "#8b5cf6",
+            "rank": "3"
+          },
+          "opt-integral": {
+            "id": "opt-integral",
+            "name": "Servicio Integral",
+            "color": "#f59e0b",
+            "rank": "4"
+          },
+          "opt-evento": {
+            "id": "opt-evento",
+            "name": "Eventos",
+            "color": "#ec4899",
+            "rank": "5"
+          }
+        }
+      },
+      "@cli06": {
+        "type": "Select",
+        "displayName": "Estado",
+        "options": {
+          "opt-activo": {
+            "id": "opt-activo",
+            "name": "Activo",
+            "color": "#22c55e",
+            "rank": "0"
+          },
+          "opt-inactivo": {
+            "id": "opt-inactivo",
+            "name": "Inactivo",
+            "color": "#6b7280",
+            "rank": "1"
+          },
+          "opt-prospecto": {
+            "id": "opt-prospecto",
+            "name": "Prospecto",
+            "color": "#f59e0b",
+            "rank": "2"
+          },
+          "opt-expansion": {
+            "id": "opt-expansion",
+            "name": "En expansión",
+            "color": "#3b82f6",
+            "rank": "3"
+          }
+        }
+      },
+      "@cli07": {
+        "type": "string",
+        "displayName": "Vigiladores asignados"
+      },
+      "@cli08": {
+        "type": "string",
+        "displayName": "Supervisor responsable"
+      },
+      "@cli09": {
+        "type": "DateTime",
+        "title": "Fecha de inicio"
+      },
+      "@cli10": {
+        "type": "string",
+        "displayName": "Observaciones"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔧"
+    }
+  }
+}
